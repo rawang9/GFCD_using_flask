@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% block head %} {% endblock head %}
+  <body>
+    {% block navbar %} {% endblock navbar %}
+    <div class="content">
+      <img class="bg" src="static/img/icons/Fynd_Logo.png" />
+      {% block user_and_order %} {% endblock user_and_order %} {% block feedback
+      %} {% endblock feedback %}
+      <h1>{{ render_message.get('head') }}</h1>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+pip freeze > file_name.txt
+to create a file holding all require modules
+
+pip freeze
+to see all the installed modules
+

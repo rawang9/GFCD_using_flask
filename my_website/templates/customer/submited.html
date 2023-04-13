@@ -1,0 +1,31 @@
+{% extends 'components/submit_feedback.html' %} {% block head %}
+<head>
+  <meta charset="UTF-8" />
+  <title>feedback form</title>
+  <link
+    rel="shortcut icon"
+    type="image/x-icon"
+    href="static/img/icons/favicon.ico"
+  />
+  <link rel="stylesheet" href="static/css/customer/feedback_style.css" />
+</head>
+{% endblock head %} {% block navbar %}
+<div class="container">
+  <div class="logo">
+    <img src="../../static/img/icons/fynd_l.jpg" />
+  </div>
+  <div class="text">
+    <h1 style="padding-bottom: 5%; margin-bottom: 5%">
+      Customer Feedback Form
+    </h1>
+  </div>
+  <div class="remain">
+    <p></p>
+  </div>
+</div>
+{% endblock navbar %} {% block greet %}
+<div class="feedback" style="text-align: center">
+  <h1>{{ render_message.get('head') }}</h1>
+  <p>{{ render_message.get('body') }}</p>
+</div>
+{% endblock greet %}
