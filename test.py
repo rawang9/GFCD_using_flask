@@ -1,0 +1,48 @@
+# from data_base import Delivery_partner,Order_details,app,db
+
+# # entry  = Delivery_partner(2,"Clint")
+# # entry.add_row()
+
+# # entry = Order_details(customer_email = "email",address_pin=273015,
+# #                       order_items = "order",delivery_id = 2)
+# # entry.add_row()
+# with app.app_context():
+#     # db.create_all()
+#     detail = Order_details.query.filter_by(order_id=1041).first()
+#     # # print(detail) #handel None then oid not forund
+#     detail.delivery_status = "Delivered"
+#     db.session.commit()
+# from textblob import TextBlob
+# comment1 = "the shirt was so good"
+# comment2 = "worst product i have puchased"
+# blob1 = TextBlob(comment1)
+# blob2 = TextBlob(comment2)
+# print(blob1.sentiment.polarity)
+# print(blob2.sentiment.polarity)
+# from data_base import Review,app,Order_details
+# import json
+# def fresh_review(id):
+#         with app.app_context(): 
+#             match = order_detail = Order_details.query.filter_by(order_id = id).first()
+#         return match
+# record = fresh_review(1041).order_items
+# jsn = json.loads(record)
+# print(type(jsn),type(jsn[0]))
+# import json
+# order = '[{"item_id":9221,"qty":1,"seller_id":433,"item_type":"Tshirt"},{"item_id":8382,"qty":3,"seller_id":1234,"item_type":"Jeans"}]'
+# res = json.loads(order)
+# print(type(res))
+# class Heel:
+#     def __init__(self):
+#         self.__name = "king"
+#     def get(self):
+#         print(self.__name)
+# h1 = Heel()
+# _Heel__name = "amam"
+# h1.get()
+import json
+a = [{'912':2},{'231':2}]
+res = json.dumps(a)
+print(type(res))
+
+

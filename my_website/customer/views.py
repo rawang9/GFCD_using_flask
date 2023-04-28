@@ -1,47 +1,87 @@
 from my_website import app
-from flask import render_template,request
+from flask import render_template,request,send_file
+from service import Customer_class
 
-
-@app.route('/<order_id>')
+@app.route('/<int:order_id>',methods=["GET","POST"])
 def feedback(order_id):
-    #check whether  its a valid id or not 3 case fresh,already,wrong_id. 
-    #if valid
-    order_data = {'item_name':"Roadster_Tshirt",
-                  'size':"M",'order_id':order_id,
-                  'delivery_date':'17-01-2023',
-                  'u_name':"Chirag kumar",
-                  'email':'aki299@gmail.com'}
-    # try:
-    #     print(order_data.get('u_name'))
-    # except Exception as e:
-    #     pass
-    if order_id== "fresh":
-        return render_template('/customer/feedback.html',render_data = order_data)
-    elif order_id == "Already":
-        message = {'head':"You have already submited your feedback.",
-                   'body':"Your feedback really help use in improving Our service for our Customers."}
-        return render_template('/customer/submited.html',render_message = message)
+    helper = Customer_class(order_id)
+    if Customer_class.fresh_review(order_id):
+        if request.method == 'GET':
+            helper.set_text('FRESH')
+            return render_template('/customer/feedback.html',render_data = helper.get_order_detail(),
+                                                             visible = helper.get_show(),
+                                                             order_item = helper.get_order_item())
+        elif request.method == 'POST':
+            helper.set_text('SUBMIT')
+            print(helper.get_show(),helper.get_order_detail(),)
+            fetch_form =  request.form
+            pic = request.files['img']
+            if helper.review_entry(img = pic,form_data = fetch_form):
+                app.logger.info("Review Sucessfully added to the Databse.")
+            else:
+                app.logger.error("Unable to Add Review in Database.")
+
+            return render_template('/customer/feedback.html',render_message = helper.get_message(),
+                                                             render_data = helper.get_order_detail(),
+                                                             visible = helper.get_show())
     else:
-        message = {'head':"Either you have already submited your feedback or clicked on wrong link.",
-                   'body':"Your feedback really help use in improving Our service for our Customers."}
-        return render_template('/customer/submited.html',render_message = message)
-        
+        helper.set_text('ALREADY')
+        return render_template('/customer/feedback.html',render_message = helper.get_message(),
+                                                         visible = helper.get_show())
 
 
-@app.route("/submited",methods=["GET","POST"])
-def submit():
+    
+# @app.route("/",methods = ["GET","POST"])
+def Upload():
     if request.method == 'POST':
-        delivery_rating = request.form['rating1']
-        product_quality = request.form['rating2']
-        comment = request.form['commentText']
-        print(delivery_rating,product_quality,comment)
-        message = {'head':"Thank you for you valuable feedback.",
-                   'body':"Your feedback really help use in improving Our service for our Customers."}
-        return render_template('/customer/submited.html',render_message = message)
+        pic = request.files['image']
+        if not pic:
+            return "no_pic uploaded",400
+        from data_base import Review
+        from PIL import Image
+        import io
+        mimetype = pic.mimetype #check mimetype to verify its img image/jpeg
+        # pic.seek(0)
+        image = Image.open(io.BytesIO(pic.read()))
+        max_width = 800#resize the image
+        max_height = 600
+        width,height = image.size
+        if width > max_width or height > max_height:
+            ratio = min(max_width/width,max_height/height)
+            new_size = (int(ratio*width),int(ratio*height))
+            image = image.resize(new_size)
+        #convert image to bytes
+        buffer = io.BytesIO()
+        image.save(buffer,format=f'{mimetype[6:]}') #mimetype = image/jpeg
+        pic = buffer.getvalue()
+
+        entry = Review(order_id=1041,seller_review="99",deliver_review=3,comment="good",
+                       image = pic,img_type = mimetype,comment_type=1)
+        entry.add_row()
+        return mimetype
+
     else:
-        message = {'head':"Invalid attempt.",
-                   'body':"try contacting us using 1900 1223 1234"}
-        return render_template('/customer/submited.html',render_message = message)
+        return render_template('/index.html'),400
+# @app.route("/get/<int:id>")
+def get_img(id):
+    from data_base import Review
+    with app.app_context:
+        img = Review.query.filter_by(order_id = id).first()
+    if not img:
+        return 'no img with this id',404
+    else:
+        from io import BytesIO
+        
+        image_data = BytesIO(img.image)
+        content_type = img.img_type
+        return send_file(image_data, mimetype=content_type)
+# @app.route("/check")
+def check():
+    return render_template('index2.html')
+
+
+
+
         
 
 

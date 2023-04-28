@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <title>feedback form</title>
+  <link
+    rel="shortcut icon"
+    type="image/x-icon"
+    href="static/img/icons/favicon.ico"
+  />
+  <link rel="stylesheet" href="./static/css/customer/feedback_style.css" />
+  </head>
+  <body>
+    {% block navbar %} {% endblock navbar %}
+    <div class="content">
+      <img class="bg" src="static/img/icons/Fynd_Logo.png" />
+      {% block user_and_order %} {% endblock user_and_order %} {% block feedback
+      %} {% endblock feedback %}
+    </div>
+  </body>
+</html>

@@ -1,8 +1,10 @@
-
-from flask import Flask
-from logging.config import dictConfig
-import logging
-
+try:
+    from flask_sqlalchemy import SQLAlchemy
+    from flask import Flask
+    import logging
+    from flask_bcrypt import Bcrypt
+except Exception as e:
+    print("Could not import module in my_website package")
 
 #get the root logger
 logger = logging.getLogger()
@@ -22,13 +24,21 @@ fileHandler.setFormatter(log_formatter)
 logger.addHandler(fileHandler)
 logger.setLevel(logging.DEBUG)
 
-
 # creating object of Flask class named app then setting SECRET_KEY
 app = Flask(__name__)
-app.config["SECRET_KEY"] = "mysecretkey"
 
 # write first log in record.log
-app.logger.debug(" app object created of flask class")
+app.logger.debug("App object created of flask class.")
+
+#setting up app config for SQLAlchemy 
+app.config['SQLALCHEMY_DATABASE_URI'] = 'oracle://hr:hr@localhost:1521/xe'
+app.config["SECRET_KEY"] = "10111999"
+db = SQLAlchemy(app)
+app.logger.info("Object created of SQLAlchemy class.")
+
+#binding Bcrypt to mathing plain text to hash value
+bcrypt = Bcrypt(app)
+
 
 
 
