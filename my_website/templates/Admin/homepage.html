@@ -1,7 +1,7 @@
 {% extends 'components/admin_base.html' %} {% block title %}
 <title>Fynd Dashboard</title>
 {% endblock title %} {% block user_detail %}
-
+<div class='top-container'>
 <div class="detail">
   <h5 style="color: black; background-color: white; padding: 15px">
     <strong>
@@ -22,6 +22,7 @@
     {{ comment_count['negative'] }}% of customer are &#128575;
   </div>
   {% endif %}
+</div>
 </div>
 {% endblock user_detail %} {% block logout %}
 <form action="{{ url_for('logout') }}">
@@ -113,7 +114,7 @@
             <option value="VIEWER">Viewer</option>
           </select>
         </span>
-        <span style="margin-left: 245px"
+        <span style="margin-left: 270px"
           >&emsp;<input type="submit" value="update"
         /></span>
       </form>
@@ -145,7 +146,7 @@
             <option value="VIEWER">Viewer</option>
           </select>
         </span>
-        <span style="margin-left: 245px"
+        <span style="margin-left: 270px"
           >&emsp;<input type="submit" value="update"
         /></span>
       </form>
@@ -191,7 +192,9 @@
             placeholder="Enter Delivery Partner Name."
             required
         /></span>
-        <span style="margin-left: 70px"
+        <br/>
+        <br/>
+        <span style="margin-left: 343px"
           >&emsp;<input type="submit" value="Create"
         /></span>
       </form>
@@ -220,7 +223,8 @@
             required
         /></span>
         <br/>
-        <span style="margin-left: 245px"
+        <br/>
+        <span style="margin-left: 343px"
           >&emsp;<input type="submit" value="Create"
         /></span>
       </form>

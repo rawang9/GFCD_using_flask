@@ -44,23 +44,27 @@
 
   box-shadow: 1px 1px 16px rgba(255, 250, 250, 0);
 }
-
+.top-container {
+  width: 100%;
+}
 .detail {
+  float: left;
   background-color: rgb(252, 156, 156);
   position: absolute;
-  top: 5%;
+  top: 25px;
   line-height: 0.1;
   padding-right: 3px;
-  width: 25%;
+  width: 30%;
 }
 
 .detail mark {
   background-color: rgba(29, 206, 255, 0.79);
   color: white;
 }
+
 .top-bar {
-  margin-left: 25%;
-  margin-top: 0.25%;
+  margin-left: 30%;
+  margin-top: 25px;
   color: rgb(233, 255, 255);
   padding-left: 3px;
   font-weight: bolder;
@@ -69,6 +73,7 @@
   text-align: center;
   overflow: hidden;
   font-size: 20px;
+  width: 70%;
 }
 /* top padding is 25px
 right padding is 50px
@@ -101,8 +106,10 @@ input[type="password"],
 input[type="number"],
 input[type="text"] {
   background-color: #b6e1ff;
+  margin: 10px;
   padding: 12px 20px;
   width: 30%;
+  height: 10px;
 }
 
 input[type="submit"] {
@@ -118,7 +125,7 @@ input[type="submit"] {
 .logoutLblPos {
   position: absolute;
   right: 2%;
-  top: -21%;
+  top: -15%;
 }
 .total-space {
   display: flex;
@@ -127,7 +134,7 @@ input[type="submit"] {
 }
 .options {
   padding-top: 20px;
-  width: 26%;
+  width: 30%;
 }
 .options mark {
   background-color: rgba(29, 206, 255, 0.79);
@@ -136,5 +143,6 @@ input[type="submit"] {
 .action {
   color: rgb(0, 0, 0);
   text-align: left;
-  padding-top: 20px;
+  padding-left: 50px;
+  width: 80%;
 }

@@ -39,21 +39,7 @@ def login():
 @app.route('/dashboard',methods = ['GET','POST'])
 @login_required
 def dashboard():
-    mini_window = 'home'
-    from pandas import read_csv
-    df = read_csv('pincode.csv')
-    all_district = df['District'].unique()
-    from data_base import Review
-    with app.app_context():
-        neg_comment = Review.query.filter_by(comment_type=-1).count()
-        pos_comment = Review.query.filter_by(comment_type=1).count()
-        neutral_comment = Review.query.filter_by(comment_type=0).count()
-    total_comment = neg_comment+pos_comment+neutral_comment
-    all_comment = {'postive':(pos_comment/total_comment)*100,
-                   'negative':(neg_comment/total_comment)*100,
-                   'neutral':(neutral_comment/total_comment)*100}
-    return render_template('Admin/homepage.html',user_email =current_user.user_id,user_role = current_user.role,
-                           districts = all_district,comment_count = all_comment,mini_window_type = mini_window)
+    return redirect(url_for('option',clicked_on = 'home'))
 
 @app.route('/logout',methods = ['GET','POST'])
 @login_required
@@ -73,7 +59,6 @@ def check_id(id):
 
 @login_required
 def pie_loader(district):
-    
     mini_window = 'pie_loader'
     from data_base import Order_details,Review,Seller_partner,Delivery_partner
     import json
@@ -139,10 +124,6 @@ def pie_loader(district):
             prev_value = seller_chart[key][child_key]
     return {'d_chart':delivery_chart,'s_chart':seller_chart,'d_details':delivery_details,
             's_details':seller_details,'location' : district.capitalize()}
-    return render_template('Admin/homepage.html',user_email =current_user.user_id,user_role = current_user.role,
-                           mini_window_type = mini_window,d_chart = delivery_chart,s_chart = seller_chart,
-                           d_details = delivery_details,s_details = seller_details,location = district.capitalize())
-
 
 @app.route('/register',methods = ['POST'])
 @login_required
@@ -302,15 +283,11 @@ def option(clicked_on):
                 flash("could not able to fetch form.")
                 app.logger.error("could not able to fetch district from form.")
                 return redirect(url_for('option',clicked_on = 'home'))
-            
             render_data = pie_loader(district)
-
             return render_template('Admin/homepage.html',user_email =current_user.user_id,user_role = current_user.role,
                                 mini_window_type = mini_window,d_chart = render_data['d_chart'],s_chart = render_data['s_chart'],
                                 d_details = render_data['d_details'],s_details = render_data['s_details'],
-                                location = render_data['location'])
-
-        
+                                location = render_data['location'],comment_count = all_comment,districts = all_district)
     return redirect(url_for('logout'))
         
  
