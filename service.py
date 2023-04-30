@@ -134,29 +134,7 @@ class Customer_class:
             app.logger.error(f"Cant insert value in database {e} error occured in Service.")
             return False
 
-from flask_wtf import FlaskForm
-from wtforms import StringField,PasswordField,SubmitField
-from wtforms.validators import InputRequired, Length
-from data_base import Authority
-class Register_form(FlaskForm):
-    user_id     = StringField(validators=[InputRequired(),Length(min=9,max=30)], render_kw={"placeholder":"User_id"})
-    password    = PasswordField(validators=[InputRequired(),Length(min=8,max=20)], render_kw={"placeholder":"Password"})
-    submit      = SubmitField('Register')
 
-    def validate_user_id(self,user_id):
-        with app.app_context:
-            existing_user_user_id = Authority.query.filter_by(user_id = user_id.data)
-        if existing_user_user_id:
-            app.logger.info("User already Exist with this username.")
-            return False
-        else:
-            app.logger.info("User user created in Authority.")
-            return True
-        
-class Login_form(FlaskForm):
-    user_id     = StringField(validators=[InputRequired(),Length(min=9,max=30)], render_kw={"placeholder":"User_id"})
-    password    = PasswordField(validators=[InputRequired(),Length(min=8,max=20)], render_kw={"placeholder":"Password"})
-    submit      = SubmitField('Login')
 
     
 

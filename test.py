@@ -40,9 +40,81 @@
 # h1 = Heel()
 # _Heel__name = "amam"
 # h1.get()
-import json
-a = [{'912':2},{'231':2}]
-res = json.dumps(a)
-print(type(res))
+# import json
+# a = [{'912':2},{'231':2}]
+# res = json.dumps(a)
+# print(type(res))
+# from data_base import app,db,Order_details,Review,Seller_partner,Delivery_partner
+# import json
+# from pandas import read_csv
+# df = read_csv('pincode.csv')
+# all_pins = df[df['District']=='GORAKHPUR']['Pincode'].to_list()
+# from data_base import app,db,Order_details,Review
+# with app.app_context():
+#     order_query = db.session.query(Order_details.order_id,Order_details.delivery_id).filter(Order_details.address_pin.in_(all_pins),
+#     Order_details.delivery_status == 'Delivered' ).all()
+# order_data = {} 
+# for row in order_query:
+#     order_data[row[0]] = row[1]
+# with app.app_context():
+#     review_query = db.session.query(Review.deliver_review,Review.seller_review,Review.order_id).filter(Review.order_id.in_(order_data.keys())).all()
+# all_detail = []
+# delivery_chart = {}
+# seller_chart = {}
+# scale = {5:'EXELENT',4:'VERY GOOD',3:'GOOD',2:'NOT GOOD',1:'BAD'}
+# for review in review_query:
+#     delivery_id = order_data[review.order_id]
+#     if delivery_chart.get(delivery_id) == None:
+#         delivery_chart[delivery_id] = {'EXELENT':0,'VERY GOOD':0,'GOOD':0,'NOT GOOD':0,'BAD':0}
+#     delivery_rating = review.deliver_review
+#     delivery_chart[delivery_id][scale[delivery_rating]] +=1
+
+#     sellers = json.loads(review.seller_review)
+#     for seller_review in sellers:
+#         seller_id = int(list(seller_review.keys())[0])
+#         if seller_chart.get(seller_id) == None:
+#             seller_chart[seller_id]= {'EXELENT':0,'VERY GOOD':0,'GOOD':0,'NOT GOOD':0,'BAD':0}
+#         seller_rating = int(list(seller_review.values())[0])
+#         seller_chart[seller_id][scale[seller_rating]] +=1
+
+# print(delivery_chart,seller_chart)
+# with app.app_context():
+#     seller_query = db.session.query(Seller_partner.seller_id,Seller_partner.seller_name).filter(Seller_partner.seller_id.in_(seller_chart.keys())).all()
+#     delivery_query = db.session.query(Delivery_partner.d_partner_id,Delivery_partner.d_partner_name).filter(Delivery_partner.d_partner_id.in_(delivery_chart.keys())).all()
+# seller_details = {}
+# for row in seller_query:
+#     seller_details[row.seller_id] = row.seller_name
+# delivery_details = {}
+# for row in delivery_query:
+#     delivery_details[row.d_partner_id] = row.d_partner_name
+# print(seller_details,delivery_details)
+
+# #scaling review on scale of 100
+# for key in delivery_chart:
+#     no_of_review = 0
+#     for child_key in delivery_chart[key]:
+#         no_of_review += delivery_chart[key][child_key]
+#     for child_key in delivery_chart[key]:
+#         delivery_chart[key][child_key] = (delivery_chart[key][child_key]/no_of_review)*100
+# for key in seller_chart:
+#     no_of_review = 0
+#     for child_key in seller_chart[key]:
+#         no_of_review += seller_chart[key][child_key]
+#     for child_key in seller_chart[key]:
+#         seller_chart[key][child_key] = (seller_chart[key][child_key]/no_of_review)*100
+# print(delivery_chart,seller_chart)
+from data_base import app,db,Order_details,Review,Seller_partner,Delivery_partner
+
+with app.app_context():
+    neg_comment = Review.query.filter_by(comment_type=-1).count()
+    pos_comment = Review.query.filter_by(comment_type=1).count()
+    neutral_comment = Review.query.filter_by(comment_type=0).count()
+
+print(neg_comment, pos_comment, neutral_comment)
+
+
+    
+
+
 
 

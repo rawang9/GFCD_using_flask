@@ -1,0 +1,140 @@
+.container {
+  display: grid;
+  align-items: center;
+  /* grid-template: 100% / auto auto; */
+  grid-template-columns: 10% 30% 60%;
+  column-gap: 0cm;
+  background-color: #453164;
+  height: 87px;
+  padding-left: 10px;
+}
+.logo img {
+  height: 62px;
+  width: 90%;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.text {
+  font-size: 70%;
+  background-color: rgba(29, 206, 255, 0.79);
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 55%;
+  width: 100%;
+}
+.remain {
+  background-color: white;
+  height: 60%;
+  width: auto;
+}
+
+.bg {
+  opacity: 0.6;
+  height: 80%;
+  width: 100%;
+  padding-top: 5%;
+}
+.top-on-image {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  margin: 0 auto;
+
+  box-shadow: 1px 1px 16px rgba(255, 250, 250, 0);
+}
+
+.detail {
+  background-color: rgb(252, 156, 156);
+  position: absolute;
+  top: 5%;
+  line-height: 0.1;
+  padding-right: 3px;
+  width: 25%;
+}
+
+.detail mark {
+  background-color: rgba(29, 206, 255, 0.79);
+  color: white;
+}
+.top-bar {
+  margin-left: 25%;
+  margin-top: 0.25%;
+  color: rgb(233, 255, 255);
+  padding-left: 3px;
+  font-weight: bolder;
+  align-items: center;
+  height: 75px;
+  text-align: center;
+  overflow: hidden;
+  font-size: 20px;
+}
+/* top padding is 25px
+right padding is 50px
+bottom padding is 75px
+left padding is 100px */
+.happy {
+  float: left;
+  background: rgb(5, 255, 59);
+  padding: 25px 0px 0px 1%;
+}
+
+.neutral {
+  float: left;
+  background: rgba(127, 127, 51, 0.995);
+  padding: 25px 0px 0px 1%;
+}
+
+.sad {
+  float: left;
+  background: rgb(255, 30, 0);
+  padding: 25px 0px 0px 1%;
+}
+
+.login-form {
+  padding-left: 30%;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="text"] {
+  background-color: #b6e1ff;
+  padding: 12px 20px;
+  width: 30%;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.logoutLblPos {
+  position: absolute;
+  right: 2%;
+  top: -21%;
+}
+.total-space {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+.options {
+  padding-top: 20px;
+  width: 26%;
+}
+.options mark {
+  background-color: rgba(29, 206, 255, 0.79);
+  color: rgb(6, 6, 6);
+}
+.action {
+  color: rgb(0, 0, 0);
+  text-align: left;
+  padding-top: 20px;
+}

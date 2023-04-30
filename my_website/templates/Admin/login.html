@@ -1,16 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>this is login</h1>
-    <form method="POST">
-      {{ form.hidden_tag() }} {{ form.user_id }} {{ form.password }} {{
-      form.submit }}
-    </form>
-  </body>
-</html>
+{% extends 'components/admin_base.html' %} {% block title %}
+<title>login</title>
+{% endblock title %} {% block login_form %}
+<div class="login-form">
+  <h1>Please enter your login credentials to proceed.</h1>
+  <form method="POST">
+    {{ form.hidden_tag() }}
+    <h3>Your Email_id &nbsp;&emsp;-&emsp; {{ form.user_id }}</h3>
+    <h3>Your Password &emsp;-&emsp; {{ form.password }}</h3>
+    <span style="margin-left: 41%">{{ form.submit }}</span>
+  </form>
+</div>
+{% endblock login_form %}

@@ -1,8 +1,8 @@
 try:
+    from flask_bcrypt import Bcrypt
     from flask_sqlalchemy import SQLAlchemy
     from flask import Flask
     import logging
-    from flask_bcrypt import Bcrypt
 except Exception as e:
     print("Could not import module in my_website package")
 

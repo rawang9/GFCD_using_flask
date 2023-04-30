@@ -1,12 +1,296 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    this is dashboard
-  </body>
-</html>
+{% extends 'components/admin_base.html' %} {% block title %}
+<title>Fynd Dashboard</title>
+{% endblock title %} {% block user_detail %}
+
+<div class="detail">
+  <h5 style="color: black; background-color: white; padding: 15px">
+    <strong>
+      Welcome <mark>{{ user_email }}</mark> your current role is
+      <mark>{{ user_role }}</mark>.
+    </strong>
+  </h5>
+</div>
+<div class="top-bar">
+  {% if mini_window_type %}
+  <div class="happy" style="width: {{comment_count['postive']-1}}%; height: 80%">
+    {{ comment_count['postive'] }}% of customer are &#128571;
+  </div>
+  <div class="neutral" style="width: {{comment_count['neutral']-1}}%; height: 80%">
+    {{ comment_count['neutral'] }}% of customer are &#128574;
+  </div>
+  <div class="sad" style="width: {{comment_count['negative']-1}}%; height: 80%">
+    {{ comment_count['negative'] }}% of customer are &#128575;
+  </div>
+  {% endif %}
+</div>
+{% endblock user_detail %} {% block logout %}
+<form action="{{ url_for('logout') }}">
+  <label class="logoutLblPos">
+    <input
+      style="
+        background-color: rgb(252, 156, 156);
+        color: black;
+        font-weight: bolder;
+      "
+      type="submit"
+      value="log out"
+    />
+  </label>
+</form>
+{% endblock logout %} {% block remain %}
+<br />
+{% for data in options %} {% endfor %}
+<div class="total-space">
+  <div class="options">
+    <form style = "padding-left:7%;" method="POST"  action="{{ url_for('option',clicked_on = 'pie_loader') }}">
+      <h3>Select a district :
+      <select name="district" required>
+      {% for district in districts %}    
+          <option value="{{ district }}">{{ district }}</option>
+      {% endfor %}
+      </select>
+      </h3>
+      <span style = "padding-left: 65%; padding-bottom:2%"><input
+        type="submit"
+        value="Search"
+        style="
+          background-color: rgba(29, 206, 255, 0.79);
+          padding: 8px 12px;
+          margin: 0px 4px;
+        "
+      />
+      </span>
+    </form>
+    <ul>
+      <li>
+        <a href="{{ url_for('option',clicked_on = 'user') }}"
+          ><mark>Add or Remove User</mark></a
+        >
+      </li>
+      <br />
+      <li>
+        <a href="{{ url_for('option',clicked_on = 'delivery') }}"
+          ><mark>Delivery Parter</mark></a
+        >
+      </li>
+      <br />
+      <li>
+        <a href="{{ url_for('option',clicked_on = 'seller') }}"
+          ><mark>Selling Parter</mark></a
+        >
+      </li>
+    </ul>
+  </div>
+  <div class="action">
+    {% with msg = get_flashed_messages() %} {% if msg %} {% for each_msg in msg
+    %}
+    <mark>{{each_msg}}</mark>
+    {% endfor %} {% endif %} {% endwith %} {% if mini_window_type == 'user' %}
+    <h1>Add New User hear</h1>
+    <h3 style="color: black">
+      <form method="POST" action="{{ url_for('register_form') }}">
+        Email -
+        <span style="margin-left: 62px"
+          ><input
+            type="email"
+            name="user_email"
+            placeholder="Enter your email."
+            required
+          /> </span
+        ><br />
+        Password -
+        <span style="margin-left: 32px"
+          ><input
+            type="password"
+            name="password"
+            placeholder="Enter your new password."
+            required
+        /></span>
+        <br />Select Role -
+        <span>
+          <select name="role">
+            <option value="ADMIN">Admin</option>
+            <option value="VIEWER">Viewer</option>
+          </select>
+        </span>
+        <span style="margin-left: 245px"
+          >&emsp;<input type="submit" value="update"
+        /></span>
+      </form>
+    </h3>
+    <h1>Update Role/Password</h1>
+    <h3 style="color: black">
+      <form method="POST" action="{{ url_for('update_form') }}">
+        Email -
+        <span style="margin-left: 62px"
+          ><input
+            type="email"
+            name="user_email"
+            placeholder="Enter your email."
+            required
+          /> </span
+        ><br />
+        Password -
+        <span style="margin-left: 32px"
+          ><input
+            type="password"
+            name="password"
+            placeholder="Enter your new password."
+            required
+        /></span>
+        <br />Select Role -
+        <span>
+          <select name="role">
+            <option value="ADMIN">Admin</option>
+            <option value="VIEWER">Viewer</option>
+          </select>
+        </span>
+        <span style="margin-left: 245px"
+          >&emsp;<input type="submit" value="update"
+        /></span>
+      </form>
+    </h3>
+    <br/>
+    <h1>Delete User.</h1>
+    <h3 style="color: black">
+      <form method="POST" action="{{ url_for('delete_form') }}">
+        Email -
+        <span style="margin-left: 62px;"
+          ><input
+            style = "width:250px;"
+            type="email"
+            name="user_email"
+            placeholder="Enter your email."
+            required
+          /> </span
+        >
+        &emsp;<input type="submit" value="Delete"
+        /></span>
+      </form>
+    </h3>
+    {% elif  mini_window_type == 'delivery' %}
+    <h1>Add New Delivery partner.</h1>
+    <h3 style="color: black">
+      <form method="POST" action="{{ url_for('add_new_partner',partner_type = mini_window_type) }}">
+        ID
+        <span style="margin-left: 25px"
+          > -</span>
+        <span style="margin-left: 32px"
+          ><input
+            type="number"
+            name="id"
+            placeholder="Enter Delivery Partner ID."
+            required
+          /> </span
+        ><br />
+        Name -
+        <span style="margin-left: 32px"
+          ><input
+            type="text"
+            name="name"
+            placeholder="Enter Delivery Partner Name."
+            required
+        /></span>
+        <span style="margin-left: 70px"
+          >&emsp;<input type="submit" value="Create"
+        /></span>
+      </form>
+    </h3>
+    {% elif  mini_window_type == 'seller' %}
+      <h1>Add New Seeling partner</h1>
+    <h3 style="color: black">
+      <form method="POST" action="{{ url_for('add_new_partner',partner_type = mini_window_type) }}">
+        ID
+        <span style="margin-left: 25px"
+          > -</span>
+        <span style="margin-left: 32px;"
+          ><input
+            type="number"
+            name="id"
+            placeholder="Enter Selling Partner ID."
+            required
+          /> </span
+        ><br />
+        Name -
+        <span style="margin-left: 32px"
+          ><input
+            type="text"
+            name="name"
+            placeholder="Enter Selling Partner Name."
+            required
+        /></span>
+        <br/>
+        <span style="margin-left: 245px"
+          >&emsp;<input type="submit" value="Create"
+        /></span>
+      </form>
+    </h3>
+    {% elif  mini_window_type == 'pie_loader' %}
+    <h1><strong>Seller Perormance in {{ location }} area.</strong></h1>
+    <h3><mark style="background-color: #a0c15a;">EXELENT</mark>&emsp;
+                                              <mark style="background-color: #add633;">VERY GOOD</mark>&emsp;
+                                              <mark style="background-color: #ffd934;">GOOD</mark>&emsp;
+                                              <mark style="background-color: #ffb234;">NOT GOOD</mark>&emsp;
+                                              <mark style="background-color: #ff8c5a;">BAD</mark>&emsp;
+    </h3>
+    <div style="position: absolute;">
+    {% for s_key in s_chart %}
+    <div style="display: inline-block; padding: 30px; border: 3px solid #fff;">
+    <div style = "height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background-color: springgreen;
+            background-image: conic-gradient(#a0c15a 0deg,#a0c15a {{ s_chart[s_key]['EXELENT'] }}deg, #add633 {{ s_chart[s_key]['EXELENT'] }}deg,#add633 {{ s_chart[s_key]['VERY GOOD'] }}deg,
+            #ffd934 {{ s_chart[s_key]['VERY GOOD'] }}deg,#ffd934 {{ s_chart[s_key]['GOOD'] }}deg,#ffb234 {{ s_chart[s_key]['GOOD'] }}deg,#ffb234 {{ s_chart[s_key]['NOT GOOD'] }}deg,#ff8c5a {{ s_chart[s_key]['NOT GOOD'] }}deg , #ff8c5a {{ s_chart[s_key]['BAD'] }}deg);
+            float: left;
+            border: 2px solid red;
+            ">
+    </div>
+    <h4>
+      Name - 
+      {% if s_details.get(s_key) == None %}
+      Unknown
+      {% else %}
+      {{ s_details[s_key] }}
+      {% endif %}
+      <br/>
+      ID - {{ s_key }} </h4>
+    </div>
+    {% endfor %}
+    <br/>
+    <h1><strong>Delivery Perormance in {{ location }} area.</strong></h1>
+    <h3><mark style="background-color: #a0c15a;">EXELENT</mark>&emsp;
+                                              <mark style="background-color: #add633;">VERY GOOD</mark>&emsp;
+                                              <mark style="background-color: #ffd934;">GOOD</mark>&emsp;
+                                              <mark style="background-color: #ffb234;">NOT GOOD</mark>&emsp;
+                                              <mark style="background-color: #ff8c5a;">BAD</mark>&emsp;
+    </h3>
+    <div>
+    {% for d_key in d_chart %}
+    <div style="display: inline-block; padding:30px;  border: 3px solid #fff;">
+    <div style = "height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background-color: springgreen;
+            background-image: conic-gradient(#a0c15a 0deg,#a0c15a {{ d_chart[d_key]['EXELENT'] }}deg, #add633 {{ d_chart[d_key]['EXELENT'] }}deg,#add633 {{ d_chart[d_key]['VERY GOOD'] }}deg,
+            #ffd934 {{ d_chart[d_key]['VERY GOOD'] }}deg,#ffd934 {{ d_chart[d_key]['GOOD'] }}deg,#ffb234 {{ d_chart[d_key]['GOOD'] }}deg,#ffb234 {{ d_chart[d_key]['NOT GOOD'] }}deg,#ff8c5a {{ d_chart[d_key]['NOT GOOD'] }}deg , #ff8c5a {{ d_chart[d_key]['BAD'] }}deg);
+            float: left;
+            border: 2px solid red;
+            ">
+    </div>
+    <h4>
+      Name - 
+      {% if d_details.get(d_key) == None %}
+      Unknown
+      {% else %}
+      {{ d_details[d_key] }}
+      {% endif %}
+      <br/>
+      ID - {{ d_key }} </h4>
+    </div>
+    {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock remain %}

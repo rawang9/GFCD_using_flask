@@ -5,3 +5,4 @@ pip freeze
 to see all the installed modules
 
 git remote show origin
+to see the connected repo

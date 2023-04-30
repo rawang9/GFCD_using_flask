@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    {% block title %}{% endblock title %}
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="static/img/icons/favicon.ico"
+    />
+    <link rel="stylesheet" href="static/css/admin/admin_style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <a href="{{ url_for('dashboard') }}">
+          <img src="../../static/img/icons/fynd_l.jpg" />
+        </a>
+      </div>
+      <div class="text">
+        <h1 style="padding-bottom: 5%; margin-bottom: 5%">
+          Customer Feedback Dashboard
+        </h1>
+      </div>
+      <div class="remain"></div>
+    </div>
+    <img class="bg" src="static/img/icons/Fynd_Logo.png" />
+
+    <div class="top-on-image">
+      {% block login_form %} {% endblock login_form %} {% block user_detail %}
+      {% endblock user_detail %} {% block logout %} {% endblock logout %} {%
+      block remain %} {% endblock remain %}
+    </div>
+  </body>
+</html>
