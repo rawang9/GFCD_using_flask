@@ -103,14 +103,33 @@
 #     for child_key in seller_chart[key]:
 #         seller_chart[key][child_key] = (seller_chart[key][child_key]/no_of_review)*100
 # print(delivery_chart,seller_chart)
-from data_base import app,db,Order_details,Review,Seller_partner,Delivery_partner
+import requests
+import json
 
-with app.app_context():
-    neg_comment = Review.query.filter_by(comment_type=-1).count()
-    pos_comment = Review.query.filter_by(comment_type=1).count()
-    neutral_comment = Review.query.filter_by(comment_type=0).count()
+# Define the data to be sent in JSON format
+data =  {  
+            "customer_email":"akarshitg9@gmail.com",
+            "address_pin":273015,
+            "order_items":'[{"item_id":9221,"qty":1,"seller_id":433,"item_type":"Tshirt"},{"item_id":8382,"qty":3,"seller_id":1234,"item_type":"Jeans"}]',
+            "delivery_id":9831,
+            "delivery_status":"Delivered"
+        }
 
-print(neg_comment, pos_comment, neutral_comment)
+# Convert the data to JSON format
+json_data = json.dumps(data)
+
+# Set the headers to indicate that the data is in JSON format
+headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}
+
+# Set the URL of the Flask POST API endpoint
+url = 'http://localhost:5000/order_detail/post'
+
+# Send the POST request to the Flask API endpoint with the JSON data and headers
+response = requests.post(url, data=json_data, headers=headers)
+
+# Print the response from the Flask API endpoint
+print(response.text)
+
 
 
     

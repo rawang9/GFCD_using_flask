@@ -10863,3 +10863,310 @@
 2023-05-01 11:34:12,846 INFO werkzeug : 127.0.0.1 - - [01/May/2023 11:34:12] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
 2023-05-01 11:34:12,849 INFO werkzeug : 127.0.0.1 - - [01/May/2023 11:34:12] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
 2023-05-01 11:35:59,415 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\admin\\views.py', reloading
+2023-05-01 11:35:59,917 INFO werkzeug :  * Restarting with stat
+2023-05-01 11:36:03,611 DEBUG my_website : App object created of flask class.
+2023-05-01 11:36:03,727 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 11:36:09,732 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 11:36:09,775 WARNING werkzeug :  * Debugger is active!
+2023-05-01 11:36:09,812 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 13:32:22,399 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 13:32:23,898 INFO werkzeug :  * Restarting with stat
+2023-05-01 13:32:25,352 DEBUG my_website : App object created of flask class.
+2023-05-01 13:32:25,387 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 13:33:28,833 DEBUG my_website : App object created of flask class.
+2023-05-01 13:33:28,856 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 13:33:51,142 DEBUG my_website : App object created of flask class.
+2023-05-01 13:33:51,166 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 13:33:52,487 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 13:33:52,516 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-01 13:33:52,517 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-05-01 13:33:52,521 INFO werkzeug :  * Restarting with stat
+2023-05-01 13:33:53,058 DEBUG my_website : App object created of flask class.
+2023-05-01 13:33:53,087 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 13:33:53,865 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 13:33:53,872 WARNING werkzeug :  * Debugger is active!
+2023-05-01 13:33:53,886 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 13:53:46,880 INFO werkzeug : 127.0.0.1 - - [01/May/2023 13:53:46] "[33mGET /order_detail/post HTTP/1.1[0m" 404 -
+2023-05-01 13:54:00,268 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 13:54:00,557 INFO werkzeug :  * Restarting with stat
+2023-05-01 13:54:01,539 DEBUG my_website : App object created of flask class.
+2023-05-01 13:54:01,576 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 13:54:03,490 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 13:54:03,506 WARNING werkzeug :  * Debugger is active!
+2023-05-01 13:54:03,516 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 13:54:08,287 INFO werkzeug : 127.0.0.1 - - [01/May/2023 13:54:08] "[31m[1mGET /order_detail/post HTTP/1.1[0m" 405 -
+2023-05-01 13:54:11,581 INFO werkzeug : 127.0.0.1 - - [01/May/2023 13:54:11] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 14:01:29,704 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:01:29,960 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:01:30,946 DEBUG my_website : App object created of flask class.
+2023-05-01 14:01:30,980 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:01:32,674 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:01:32,688 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:01:32,694 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:01:36,059 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:01:36,372 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:01:37,327 DEBUG my_website : App object created of flask class.
+2023-05-01 14:01:37,372 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:01:38,491 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:01:38,501 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:01:38,506 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:01:40,565 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:01:40] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 14:03:46,874 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:03:47,089 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:03:47,887 DEBUG my_website : App object created of flask class.
+2023-05-01 14:03:47,918 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:03:48,983 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:03:48,994 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:03:49,000 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:03:51,293 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:03:51] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 14:04:28,071 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:04:28,287 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:04:29,130 DEBUG my_website : App object created of flask class.
+2023-05-01 14:04:29,168 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:04:30,160 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:04:30,170 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:04:30,177 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:04:40,088 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:04:40,307 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:04:41,051 DEBUG my_website : App object created of flask class.
+2023-05-01 14:04:41,104 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:04:42,386 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:04:42,397 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:04:42,404 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:04:43,754 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:04:43] "[35m[1mPOST /order_detail/post HTTP/1.1[0m" 500 -
+2023-05-01 14:05:24,598 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:05:24,819 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:05:25,661 DEBUG my_website : App object created of flask class.
+2023-05-01 14:05:25,696 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:05:26,758 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:05:26,768 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:05:26,772 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:05:28,378 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:05:28] "[35m[1mPOST /order_detail/post HTTP/1.1[0m" 500 -
+2023-05-01 14:05:37,752 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:05:38,073 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:05:38,934 DEBUG my_website : App object created of flask class.
+2023-05-01 14:05:38,964 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:05:40,001 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:05:40,015 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:05:40,021 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:05:40,143 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:05:40] "[35m[1mPOST /order_detail/post HTTP/1.1[0m" 500 -
+2023-05-01 14:05:48,910 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:05:49,121 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:05:49,943 DEBUG my_website : App object created of flask class.
+2023-05-01 14:05:49,973 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:05:51,144 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:05:51,153 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:05:51,158 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:05:51,759 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:05:51] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 14:06:35,383 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 14:06:35,597 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:06:36,313 DEBUG my_website : App object created of flask class.
+2023-05-01 14:06:36,345 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:06:37,601 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:06:37,613 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:06:37,618 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:12:14,336 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 14:12:14,557 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:12:15,391 DEBUG my_website : App object created of flask class.
+2023-05-01 14:12:15,422 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:12:16,522 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:12:16,530 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:12:16,536 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:12:26,341 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 14:12:26,537 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:12:27,331 DEBUG my_website : App object created of flask class.
+2023-05-01 14:12:27,359 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:12:28,425 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:12:28,434 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:12:28,438 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:13:15,755 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:13:15] "[31m[1mPOST /order_detail/post HTTP/1.1[0m" 400 -
+2023-05-01 14:16:38,443 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 14:16:38,659 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:16:39,549 DEBUG my_website : App object created of flask class.
+2023-05-01 14:16:39,586 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:16:40,621 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:16:40,632 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:16:40,636 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:19:00,747 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:19:00,930 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:19:01,768 DEBUG my_website : App object created of flask class.
+2023-05-01 14:19:01,797 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:19:02,773 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:19:02,781 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:19:02,785 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:19:14,802 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 14:19:14,998 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:19:15,755 DEBUG my_website : App object created of flask class.
+2023-05-01 14:19:15,802 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:19:16,915 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:19:16,923 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:19:16,927 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:19:21,351 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 14:19:21,534 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:19:22,252 DEBUG my_website : App object created of flask class.
+2023-05-01 14:19:22,280 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:19:23,336 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:19:23,344 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:19:23,349 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:19:24,694 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:19:24] "[33mPOST /api/post HTTP/1.1[0m" 404 -
+2023-05-01 14:19:35,277 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 14:19:35,463 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:19:36,171 DEBUG my_website : App object created of flask class.
+2023-05-01 14:19:36,202 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:19:37,232 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:19:37,241 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:19:37,245 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:19:54,663 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 14:19:54,861 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:19:55,629 DEBUG my_website : App object created of flask class.
+2023-05-01 14:19:55,665 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:19:56,851 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:19:56,859 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:19:56,866 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:20:01,438 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:20:01] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 14:20:34,772 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:20:34,984 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:20:35,738 DEBUG my_website : App object created of flask class.
+2023-05-01 14:20:35,772 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:20:36,785 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:20:36,795 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:20:36,802 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:20:59,893 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:20:59] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 14:21:14,745 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:21:14,968 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:21:15,733 DEBUG my_website : App object created of flask class.
+2023-05-01 14:21:15,775 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:21:16,832 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:21:16,842 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:21:16,847 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:21:24,016 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:21:24] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 14:22:17,480 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:22:17] "[35m[1mPOST /order_detail/post HTTP/1.1[0m" 500 -
+2023-05-01 14:23:26,354 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:23:26,571 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:23:27,478 DEBUG my_website : App object created of flask class.
+2023-05-01 14:23:27,516 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:23:28,720 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:23:28,733 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:23:28,739 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:23:31,702 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:23:31] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 14:23:48,235 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:23:48,445 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:23:49,187 DEBUG my_website : App object created of flask class.
+2023-05-01 14:23:49,230 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:23:50,225 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:23:50,233 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:23:50,238 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:24:09,892 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:24:09] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 14:24:18,611 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:24:18,847 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:24:19,759 DEBUG my_website : App object created of flask class.
+2023-05-01 14:24:19,799 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:24:21,253 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:24:21,268 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:24:21,274 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:24:26,339 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:24:26] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 14:25:20,031 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:25:20,215 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:25:20,904 DEBUG my_website : App object created of flask class.
+2023-05-01 14:25:20,934 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:25:21,861 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:25:21,870 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:25:21,875 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:25:50,117 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:25:50,330 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:25:51,111 DEBUG my_website : App object created of flask class.
+2023-05-01 14:25:51,146 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:25:52,189 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:25:52,199 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:25:52,204 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:25:56,155 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:25:56] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 14:26:22,426 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:26:22,793 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:26:23,558 DEBUG my_website : App object created of flask class.
+2023-05-01 14:26:23,588 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:26:24,551 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:26:24,560 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:26:24,566 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:26:30,194 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:26:30,495 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:26:31,204 DEBUG my_website : App object created of flask class.
+2023-05-01 14:26:31,232 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:26:32,233 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:26:32,244 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:26:32,248 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:26:35,114 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:26:35] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 14:27:08,923 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:27:09,135 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:27:09,836 DEBUG my_website : App object created of flask class.
+2023-05-01 14:27:09,879 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:27:10,879 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:27:10,889 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:27:10,894 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:27:23,030 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:27:23,309 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:27:24,021 DEBUG my_website : App object created of flask class.
+2023-05-01 14:27:24,050 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:27:25,003 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:27:25,013 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:27:25,019 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:27:28,456 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:27:28,763 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:27:29,581 DEBUG my_website : App object created of flask class.
+2023-05-01 14:27:29,624 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:27:30,701 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:27:30,713 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:27:30,719 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:27:33,671 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:27:33] "[35m[1mPOST /order_detail/post HTTP/1.1[0m" 500 -
+2023-05-01 14:28:41,608 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:28:41] "[35m[1mPOST /order_detail/post HTTP/1.1[0m" 500 -
+2023-05-01 14:28:49,409 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:28:49,618 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:28:50,582 DEBUG my_website : App object created of flask class.
+2023-05-01 14:28:50,624 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:28:51,908 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:28:51,918 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:28:51,926 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:28:52,063 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:28:52] "[35m[1mPOST /order_detail/post HTTP/1.1[0m" 500 -
+2023-05-01 14:28:55,422 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:28:55,622 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:28:56,339 DEBUG my_website : App object created of flask class.
+2023-05-01 14:28:56,368 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:28:57,766 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:28:57,776 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:28:57,782 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:29:00,853 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:29:00] "[35m[1mPOST /order_detail/post HTTP/1.1[0m" 500 -
+2023-05-01 14:29:28,437 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:29:28] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 14:30:02,629 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:30:02,851 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:30:03,557 DEBUG my_website : App object created of flask class.
+2023-05-01 14:30:03,595 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:30:04,627 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:30:04,636 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:30:04,640 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:30:20,124 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:30:20] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 14:31:00,381 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:31:00,634 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:31:01,600 DEBUG my_website : App object created of flask class.
+2023-05-01 14:31:01,640 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:31:03,041 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:31:03,049 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:31:03,054 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:31:19,425 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:31:19] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 14:31:40,240 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:31:40] "[35m[1mPOST /order_detail/post HTTP/1.1[0m" 500 -
+2023-05-01 14:32:29,172 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:32:29,377 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:32:30,233 DEBUG my_website : App object created of flask class.
+2023-05-01 14:32:30,265 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:32:31,476 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:32:31,487 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:32:31,492 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:32:32,072 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:32:32] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 14:32:57,625 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:32:57,844 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:32:58,553 DEBUG my_website : App object created of flask class.
+2023-05-01 14:32:58,585 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:32:59,535 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:32:59,543 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:32:59,548 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:33:46,121 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:33:46,421 INFO werkzeug :  * Restarting with stat

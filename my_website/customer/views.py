@@ -79,6 +79,19 @@ def get_img(id):
 def check():
     return render_template('index2.html')
 
+@app.route('/order_detail/post',methods = ['POST'])
+def handle_order():
+    data = request.json
+    import json
+    order_detail  = json.loads(data['order_items'])
+    
+    print(order_detail,type(order_detail))
+    respose = {'message':data}
+    return respose,200
+
+
+
+
 
 
 
