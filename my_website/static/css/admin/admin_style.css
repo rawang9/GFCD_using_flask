@@ -124,8 +124,10 @@ input[type="submit"] {
 
 .logoutLblPos {
   position: absolute;
-  right: 2%;
-  top: -15%;
+  right: 10px;
+  top: -69px;
+  /* right: 2%;
+  top: -15%; */
 }
 .total-space {
   display: flex;
@@ -143,6 +145,6 @@ input[type="submit"] {
 .action {
   color: rgb(0, 0, 0);
   text-align: left;
-  padding-left: 50px;
+  padding-left: 80px;
   width: 80%;
 }
