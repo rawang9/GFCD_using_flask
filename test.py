@@ -13,8 +13,8 @@
 #     detail.delivery_status = "Delivered"
 #     db.session.commit()
 # from textblob import TextBlob
-# comment1 = "the shirt was so good"
-# comment2 = "worst product i have puchased"
+# comment1 = "it meet my expectation"
+# comment2 = "None soo good"
 # blob1 = TextBlob(comment1)
 # blob2 = TextBlob(comment2)
 # print(blob1.sentiment.polarity)
@@ -49,7 +49,6 @@
 # from pandas import read_csv
 # df = read_csv('pincode.csv')
 # all_pins = df[df['District']=='GORAKHPUR']['Pincode'].to_list()
-# from data_base import app,db,Order_details,Review
 # with app.app_context():
 #     order_query = db.session.query(Order_details.order_id,Order_details.delivery_id).filter(Order_details.address_pin.in_(all_pins),
 #     Order_details.delivery_status == 'Delivered' ).all()
@@ -71,7 +70,10 @@
 
 #     sellers = json.loads(review.seller_review)
 #     for seller_review in sellers:
-#         seller_id = int(list(seller_review.keys())[0])
+#         if list(seller_review.keys())[0] != None:
+#             pass
+#         else:
+#             seller_id = int(list(seller_review.keys())[0])
 #         if seller_chart.get(seller_id) == None:
 #             seller_chart[seller_id]= {'EXELENT':0,'VERY GOOD':0,'GOOD':0,'NOT GOOD':0,'BAD':0}
 #         seller_rating = int(list(seller_review.values())[0])
@@ -103,21 +105,22 @@
 #     for child_key in seller_chart[key]:
 #         seller_chart[key][child_key] = (seller_chart[key][child_key]/no_of_review)*100
 # print(delivery_chart,seller_chart)
+
+
 import requests
 import json
-
+#add order details
 # Define the data to be sent in JSON format
 data =  {  
             "customer_email":"akarshitg9@gmail.com",
             "address_pin":273015,
-            "order_items":'[{"item_id":9221,"qty":1,"seller_id":433,"item_type":"Tshirt"},{"item_id":8382,"qty":3,"seller_id":1234,"item_type":"Jeans"}]',
-            "delivery_id":9831,
-            "delivery_status":"Delivered"
+            "order_items":'[{"item_id":11311,"qty":1,"seller_id":1022,"item_type":"tshirt"}]',
+            "delivery_id":12938,
         }
 
 # Convert the data to JSON format
 json_data = json.dumps(data)
-
+print(json_data)
 # Set the headers to indicate that the data is in JSON format
 headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}
 

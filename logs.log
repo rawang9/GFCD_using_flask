@@ -11170,3 +11170,1055 @@
 2023-05-01 14:32:59,548 INFO werkzeug :  * Debugger PIN: 564-069-486
 2023-05-01 14:33:46,121 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
 2023-05-01 14:33:46,421 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:33:47,108 DEBUG my_website : App object created of flask class.
+2023-05-01 14:33:47,154 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:33:48,103 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:33:48,113 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:33:48,118 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:35:28,233 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:35:28] "GET /1041 HTTP/1.1" 200 -
+2023-05-01 14:35:28,483 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:35:28] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 14:35:28,583 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:35:28] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 14:35:28,584 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:35:28] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 14:47:59,357 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:47:59,560 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:48:00,318 DEBUG my_website : App object created of flask class.
+2023-05-01 14:48:00,347 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:48:01,385 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:48:01,401 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:48:01,408 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:48:08,172 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:48:08,411 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:48:09,559 DEBUG my_website : App object created of flask class.
+2023-05-01 14:48:09,625 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:48:11,142 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:48:11,154 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:48:11,162 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:48:15,699 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:48:15] "[35m[1mPOST /order_detail/post HTTP/1.1[0m" 500 -
+2023-05-01 14:48:44,205 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:48:44,438 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:48:45,456 DEBUG my_website : App object created of flask class.
+2023-05-01 14:48:45,518 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:48:47,066 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:48:47,079 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:48:47,085 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:48:57,059 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 14:48:57,259 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:48:57,885 DEBUG my_website : App object created of flask class.
+2023-05-01 14:48:57,916 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:48:58,885 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:48:58,893 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:48:58,897 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:48:58,986 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:48:58] "[35m[1mPOST /order_detail/post HTTP/1.1[0m" 500 -
+2023-05-01 14:49:46,115 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 14:49:46,367 INFO werkzeug :  * Restarting with stat
+2023-05-01 14:49:47,077 DEBUG my_website : App object created of flask class.
+2023-05-01 14:49:47,105 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 14:49:48,067 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 14:49:48,075 WARNING werkzeug :  * Debugger is active!
+2023-05-01 14:49:48,079 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 14:50:03,545 INFO werkzeug : 127.0.0.1 - - [01/May/2023 14:50:03] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 15:00:10,916 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 15:00:11,115 INFO werkzeug :  * Restarting with stat
+2023-05-01 15:00:11,859 DEBUG my_website : App object created of flask class.
+2023-05-01 15:00:11,890 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 15:00:12,883 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 15:00:12,892 WARNING werkzeug :  * Debugger is active!
+2023-05-01 15:00:12,897 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 15:17:50,189 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 15:17:50,438 INFO werkzeug :  * Restarting with stat
+2023-05-01 15:17:51,449 DEBUG my_website : App object created of flask class.
+2023-05-01 15:17:51,493 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 15:18:44,514 DEBUG my_website : App object created of flask class.
+2023-05-01 15:18:44,553 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 15:18:45,727 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 15:18:45,746 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-01 15:18:45,747 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-05-01 15:18:45,749 INFO werkzeug :  * Restarting with stat
+2023-05-01 15:18:46,556 DEBUG my_website : App object created of flask class.
+2023-05-01 15:18:46,595 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 15:18:47,830 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 15:18:47,842 WARNING werkzeug :  * Debugger is active!
+2023-05-01 15:18:47,848 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 15:18:49,711 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:18:49] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2023-05-01 15:18:49,985 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:18:49] "GET /login?next=%2Fdashboard HTTP/1.1" 200 -
+2023-05-01 15:18:50,109 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:18:50] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:18:50,334 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:18:50] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:18:50,383 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:18:50] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:18:50,708 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:18:50] "[36mGET /static/img/icons/favicon.ico HTTP/1.1[0m" 304 -
+2023-05-01 15:20:15,561 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:20:15] "[32mPOST /login?next=%2Fdashboard HTTP/1.1[0m" 302 -
+2023-05-01 15:20:15,862 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:20:15] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+2023-05-01 15:20:16,289 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:20:16] "GET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-05-01 15:20:16,310 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:20:16] "GET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-05-01 15:20:16,505 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:20:16] "GET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-05-01 15:20:16,695 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:20:16] "[36mGET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-01 15:21:07,566 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\admin\\views.py', reloading
+2023-05-01 15:21:07,798 INFO werkzeug :  * Restarting with stat
+2023-05-01 15:21:08,736 DEBUG my_website : App object created of flask class.
+2023-05-01 15:21:08,776 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 15:21:10,073 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 15:21:10,084 WARNING werkzeug :  * Debugger is active!
+2023-05-01 15:21:10,089 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 15:21:15,515 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:21:15] "GET /home HTTP/1.1" 200 -
+2023-05-01 15:21:15,659 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:21:15] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:21:15,872 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:21:15] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:21:15,905 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:21:15] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:21:16,235 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:21:16] "[36mGET /static/img/icons/favicon.ico HTTP/1.1[0m" 304 -
+2023-05-01 15:22:05,079 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:22:05] "GET /home HTTP/1.1" 200 -
+2023-05-01 15:22:05,412 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:22:05] "GET /static/css/admin/admin_style.css HTTP/1.1" 200 -
+2023-05-01 15:22:05,412 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:22:05] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:22:05,443 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:22:05] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:22:05,675 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:22:05] "[36mGET /static/img/icons/favicon.ico HTTP/1.1[0m" 304 -
+2023-05-01 15:22:16,485 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:22:16] "GET /home HTTP/1.1" 200 -
+2023-05-01 15:22:16,817 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:22:16] "GET /static/css/admin/admin_style.css HTTP/1.1" 200 -
+2023-05-01 15:22:16,818 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:22:16] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:22:16,841 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:22:16] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:22:17,079 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:22:17] "[36mGET /static/img/icons/favicon.ico HTTP/1.1[0m" 304 -
+2023-05-01 15:23:03,130 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:23:03] "GET /delivery HTTP/1.1" 200 -
+2023-05-01 15:23:03,481 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:23:03] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:23:03,482 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:23:03] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:23:03,498 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:23:03] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:23:43,693 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:23:43] "GET /delivery HTTP/1.1" 200 -
+2023-05-01 15:23:44,032 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:23:44] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:23:44,033 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:23:44] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:23:44,082 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:23:44] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:23:44,296 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:23:44] "[36mGET /static/img/icons/favicon.ico HTTP/1.1[0m" 304 -
+2023-05-01 15:23:53,531 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:23:53] "GET /delivery HTTP/1.1" 200 -
+2023-05-01 15:23:53,871 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:23:53] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:23:53,872 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:23:53] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:23:53,896 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:23:53] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:23:54,135 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:23:54] "[36mGET /static/img/icons/favicon.ico HTTP/1.1[0m" 304 -
+2023-05-01 15:24:06,574 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:24:06] "GET /delivery HTTP/1.1" 200 -
+2023-05-01 15:24:06,907 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:24:06] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:24:06,908 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:24:06] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:24:06,941 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:24:06] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:24:07,171 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:24:07] "[36mGET /static/img/icons/favicon.ico HTTP/1.1[0m" 304 -
+2023-05-01 15:24:13,108 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:24:13] "GET /seller HTTP/1.1" 200 -
+2023-05-01 15:24:13,463 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:24:13] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:24:13,464 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:24:13] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:24:13,465 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:24:13] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:24:33,940 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:24:33] "GET /seller HTTP/1.1" 200 -
+2023-05-01 15:24:34,269 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:24:34] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:24:34,269 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:24:34] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:24:34,292 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:24:34] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:24:34,529 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:24:34] "[36mGET /static/img/icons/favicon.ico HTTP/1.1[0m" 304 -
+2023-05-01 15:24:36,726 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:24:36] "GET /delivery HTTP/1.1" 200 -
+2023-05-01 15:24:37,066 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:24:37] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:24:37,067 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:24:37] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:24:37,079 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:24:37] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:24:48,334 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:24:48] "GET /seller HTTP/1.1" 200 -
+2023-05-01 15:24:48,696 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:24:48] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:24:48,696 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:24:48] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:24:48,698 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:24:48] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:30:28,332 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:30:28] "[32mPOST /user/seller HTTP/1.1[0m" 302 -
+2023-05-01 15:30:28,793 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:30:28] "GET /seller HTTP/1.1" 200 -
+2023-05-01 15:30:28,821 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:30:28] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:30:29,126 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:30:29] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:30:29,157 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:30:29] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:30:45,818 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:30:45] "[32mPOST /user/seller HTTP/1.1[0m" 302 -
+2023-05-01 15:30:46,284 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:30:46] "GET /seller HTTP/1.1" 200 -
+2023-05-01 15:30:46,315 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:30:46] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:30:46,624 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:30:46] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:30:46,640 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:30:46] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:31:09,199 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:31:09] "[32mPOST /user/seller HTTP/1.1[0m" 302 -
+2023-05-01 15:31:09,707 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:31:09] "GET /seller HTTP/1.1" 200 -
+2023-05-01 15:31:09,735 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:31:09] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:31:10,050 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:31:10] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:31:10,066 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:31:10] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:31:22,495 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:31:22] "[32mPOST /user/seller HTTP/1.1[0m" 302 -
+2023-05-01 15:31:23,042 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:31:23] "GET /seller HTTP/1.1" 200 -
+2023-05-01 15:31:23,083 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:31:23] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:31:23,383 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:31:23] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:31:23,415 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:31:23] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:31:43,577 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:31:43] "[32mPOST /user/seller HTTP/1.1[0m" 302 -
+2023-05-01 15:31:44,075 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:31:44] "GET /seller HTTP/1.1" 200 -
+2023-05-01 15:31:44,104 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:31:44] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:31:44,418 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:31:44] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:31:44,434 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:31:44] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:31:56,429 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:31:56] "[32mPOST /user/seller HTTP/1.1[0m" 302 -
+2023-05-01 15:31:56,936 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:31:56] "GET /seller HTTP/1.1" 200 -
+2023-05-01 15:31:56,967 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:31:56] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:31:57,271 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:31:57] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:31:57,302 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:31:57] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:32:09,903 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:32:09] "[32mPOST /user/seller HTTP/1.1[0m" 302 -
+2023-05-01 15:32:10,416 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:32:10] "GET /seller HTTP/1.1" 200 -
+2023-05-01 15:32:10,443 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:32:10] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:32:10,756 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:32:10] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:32:10,788 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:32:10] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:32:21,856 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:32:21] "[32mPOST /user/seller HTTP/1.1[0m" 302 -
+2023-05-01 15:32:22,389 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:32:22] "GET /seller HTTP/1.1" 200 -
+2023-05-01 15:32:22,423 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:32:22] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:32:22,726 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:32:22] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:32:22,758 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:32:22] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:32:35,071 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:32:35] "[32mPOST /user/seller HTTP/1.1[0m" 302 -
+2023-05-01 15:32:35,533 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:32:35] "GET /seller HTTP/1.1" 200 -
+2023-05-01 15:32:35,557 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:32:35] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:32:35,860 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:32:35] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:32:35,891 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:32:35] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:32:42,752 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:32:42] "GET /delivery HTTP/1.1" 200 -
+2023-05-01 15:32:42,802 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:32:42] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:32:43,093 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:32:43] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:32:43,094 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:32:43] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:33:39,372 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:33:39] "[32mPOST /user/delivery HTTP/1.1[0m" 302 -
+2023-05-01 15:33:39,895 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:33:39] "GET /delivery HTTP/1.1" 200 -
+2023-05-01 15:33:39,946 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:33:39] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:33:40,222 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:33:40] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:33:40,222 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:33:40] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:34:37,544 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:34:37] "[32mPOST /user/delivery HTTP/1.1[0m" 302 -
+2023-05-01 15:34:38,108 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:34:38] "GET /delivery HTTP/1.1" 200 -
+2023-05-01 15:34:38,152 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:34:38] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:34:38,461 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:34:38] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:34:38,490 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:34:38] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:35:28,223 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:35:28] "[32mPOST /user/delivery HTTP/1.1[0m" 302 -
+2023-05-01 15:35:28,678 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:35:28] "GET /delivery HTTP/1.1" 200 -
+2023-05-01 15:35:28,703 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:35:28] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:35:29,016 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:35:29] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:35:29,054 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:35:29] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:35:41,670 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:35:41] "[32mPOST /user/delivery HTTP/1.1[0m" 302 -
+2023-05-01 15:35:42,138 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:35:42] "GET /delivery HTTP/1.1" 200 -
+2023-05-01 15:35:42,172 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:35:42] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:35:42,483 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:35:42] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:35:42,498 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:35:42] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:35:57,285 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:35:57] "[32mPOST /user/delivery HTTP/1.1[0m" 302 -
+2023-05-01 15:35:57,801 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:35:57] "GET /delivery HTTP/1.1" 200 -
+2023-05-01 15:35:57,822 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:35:57] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:35:58,126 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:35:58] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:35:58,159 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:35:58] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:36:11,683 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:36:11] "[32mPOST /user/delivery HTTP/1.1[0m" 302 -
+2023-05-01 15:36:12,150 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:36:12] "GET /delivery HTTP/1.1" 200 -
+2023-05-01 15:36:12,181 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:36:12] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:36:12,480 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:36:12] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:36:12,512 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:36:12] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:36:25,706 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:36:25] "[32mPOST /user/delivery HTTP/1.1[0m" 302 -
+2023-05-01 15:36:26,171 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:36:26] "GET /delivery HTTP/1.1" 200 -
+2023-05-01 15:36:26,195 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:36:26] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:36:26,499 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:36:26] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:36:26,529 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:36:26] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:36:39,491 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:36:39] "[32mPOST /user/delivery HTTP/1.1[0m" 302 -
+2023-05-01 15:36:39,998 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:36:39] "GET /delivery HTTP/1.1" 200 -
+2023-05-01 15:36:40,029 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:36:40] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:36:40,335 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:36:40] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:36:40,365 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:36:40] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:36:53,591 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:36:53] "[32mPOST /user/delivery HTTP/1.1[0m" 302 -
+2023-05-01 15:36:54,093 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:36:54] "GET /delivery HTTP/1.1" 200 -
+2023-05-01 15:36:54,122 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:36:54] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:36:54,434 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:36:54] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:36:54,465 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:36:54] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:36:58,785 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:36:58] "GET /user HTTP/1.1" 200 -
+2023-05-01 15:36:58,838 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:36:58] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:36:59,149 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:36:59] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:36:59,150 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:36:59] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:37:05,686 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:37:05] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-05-01 15:37:05,926 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:37:05] "GET /login HTTP/1.1" 200 -
+2023-05-01 15:37:06,002 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:37:06] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 15:37:06,269 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:37:06] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 15:37:06,269 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:37:06] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 15:40:52,387 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 15:40:52,641 INFO werkzeug :  * Restarting with stat
+2023-05-01 15:40:53,212 DEBUG my_website : App object created of flask class.
+2023-05-01 15:40:53,235 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 15:40:54,061 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 15:40:54,070 WARNING werkzeug :  * Debugger is active!
+2023-05-01 15:40:54,074 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 15:43:44,349 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 15:43:44,516 INFO werkzeug :  * Restarting with stat
+2023-05-01 15:43:45,030 DEBUG my_website : App object created of flask class.
+2023-05-01 15:43:45,056 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 15:43:45,867 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 15:43:45,876 WARNING werkzeug :  * Debugger is active!
+2023-05-01 15:43:45,880 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 15:44:12,583 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 15:44:12,785 INFO werkzeug :  * Restarting with stat
+2023-05-01 15:44:13,329 DEBUG my_website : App object created of flask class.
+2023-05-01 15:44:13,352 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 15:44:14,130 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 15:44:14,136 WARNING werkzeug :  * Debugger is active!
+2023-05-01 15:44:14,140 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 15:44:23,810 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 15:44:23,974 INFO werkzeug :  * Restarting with stat
+2023-05-01 15:44:24,535 DEBUG my_website : App object created of flask class.
+2023-05-01 15:44:24,558 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 15:44:25,341 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 15:44:25,349 WARNING werkzeug :  * Debugger is active!
+2023-05-01 15:44:25,353 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 15:44:32,901 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 15:44:33,077 INFO werkzeug :  * Restarting with stat
+2023-05-01 15:44:33,612 DEBUG my_website : App object created of flask class.
+2023-05-01 15:44:33,634 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 15:44:34,381 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 15:44:34,388 WARNING werkzeug :  * Debugger is active!
+2023-05-01 15:44:34,392 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 15:44:46,182 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 15:44:46,394 INFO werkzeug :  * Restarting with stat
+2023-05-01 15:44:46,930 DEBUG my_website : App object created of flask class.
+2023-05-01 15:44:46,952 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 15:44:47,778 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 15:44:47,788 WARNING werkzeug :  * Debugger is active!
+2023-05-01 15:44:47,792 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 15:45:01,705 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 15:45:01,895 INFO werkzeug :  * Restarting with stat
+2023-05-01 15:45:02,465 DEBUG my_website : App object created of flask class.
+2023-05-01 15:45:02,486 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 15:45:03,292 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 15:45:03,299 WARNING werkzeug :  * Debugger is active!
+2023-05-01 15:45:03,303 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 15:48:17,610 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 15:48:17,789 INFO werkzeug :  * Restarting with stat
+2023-05-01 15:48:18,374 DEBUG my_website : App object created of flask class.
+2023-05-01 15:48:18,395 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 15:48:19,189 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 15:48:19,196 WARNING werkzeug :  * Debugger is active!
+2023-05-01 15:48:19,200 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 15:48:44,385 INFO my_website : Cant process POST request came for adding entry in Order table.
+2023-05-01 15:48:44,386 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:48:44] "[31m[1mPOST /order_detail/post HTTP/1.1[0m" 400 -
+2023-05-01 15:49:37,823 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 15:49:37,978 INFO werkzeug :  * Restarting with stat
+2023-05-01 15:49:38,494 DEBUG my_website : App object created of flask class.
+2023-05-01 15:49:38,517 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 15:49:39,339 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 15:49:39,356 WARNING werkzeug :  * Debugger is active!
+2023-05-01 15:49:39,359 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 15:49:40,525 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 15:49:40,713 INFO werkzeug :  * Restarting with stat
+2023-05-01 15:49:41,310 DEBUG my_website : App object created of flask class.
+2023-05-01 15:49:41,338 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 15:49:42,218 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 15:49:42,228 WARNING werkzeug :  * Debugger is active!
+2023-05-01 15:49:42,232 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 15:49:44,972 INFO my_website : Cant process POST request came for adding entry in Order table.
+2023-05-01 15:49:44,973 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:49:44] "[31m[1mPOST /order_detail/post HTTP/1.1[0m" 400 -
+2023-05-01 15:50:59,779 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 15:50:59,995 INFO werkzeug :  * Restarting with stat
+2023-05-01 15:51:00,510 DEBUG my_website : App object created of flask class.
+2023-05-01 15:51:00,531 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 15:51:01,257 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 15:51:01,264 WARNING werkzeug :  * Debugger is active!
+2023-05-01 15:51:01,267 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 15:51:01,343 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:51:01] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 15:52:13,589 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 15:52:13,760 INFO werkzeug :  * Restarting with stat
+2023-05-01 15:52:14,263 DEBUG my_website : App object created of flask class.
+2023-05-01 15:52:14,286 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 15:52:15,080 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 15:52:15,087 WARNING werkzeug :  * Debugger is active!
+2023-05-01 15:52:15,091 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 15:52:15,686 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:52:15] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 15:53:47,573 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 15:53:47,749 INFO werkzeug :  * Restarting with stat
+2023-05-01 15:53:48,237 DEBUG my_website : App object created of flask class.
+2023-05-01 15:53:48,259 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 15:53:49,061 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 15:53:49,068 WARNING werkzeug :  * Debugger is active!
+2023-05-01 15:53:49,073 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 15:53:52,313 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:53:52] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 15:54:36,985 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 15:54:37,161 INFO werkzeug :  * Restarting with stat
+2023-05-01 15:54:37,667 DEBUG my_website : App object created of flask class.
+2023-05-01 15:54:37,699 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 15:54:38,513 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 15:54:38,522 WARNING werkzeug :  * Debugger is active!
+2023-05-01 15:54:38,525 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 15:54:38,827 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:54:38] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 15:55:38,111 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 15:55:38,344 INFO werkzeug :  * Restarting with stat
+2023-05-01 15:55:38,880 DEBUG my_website : App object created of flask class.
+2023-05-01 15:55:38,903 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 15:55:39,692 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 15:55:39,699 WARNING werkzeug :  * Debugger is active!
+2023-05-01 15:55:39,702 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 15:55:40,422 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:55:40] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 15:57:34,649 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 15:57:34,821 INFO werkzeug :  * Restarting with stat
+2023-05-01 15:57:35,339 DEBUG my_website : App object created of flask class.
+2023-05-01 15:57:35,361 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 15:57:36,200 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 15:57:36,207 WARNING werkzeug :  * Debugger is active!
+2023-05-01 15:57:36,211 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 15:58:06,155 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:58:06] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 15:59:09,775 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 15:59:09,980 INFO werkzeug :  * Restarting with stat
+2023-05-01 15:59:10,550 DEBUG my_website : App object created of flask class.
+2023-05-01 15:59:10,574 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 15:59:11,331 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 15:59:11,340 WARNING werkzeug :  * Debugger is active!
+2023-05-01 15:59:11,344 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 15:59:11,416 INFO werkzeug : 127.0.0.1 - - [01/May/2023 15:59:11] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 16:00:31,149 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 16:00:31,350 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:00:31,898 DEBUG my_website : App object created of flask class.
+2023-05-01 16:00:31,921 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:00:32,682 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:00:32,690 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:00:32,695 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:00:32,770 INFO my_website : Cant process POST request came for adding entry in Order table.
+2023-05-01 16:00:32,771 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:00:32] "[31m[1mPOST /order_detail/post HTTP/1.1[0m" 400 -
+2023-05-01 16:00:42,437 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 16:00:42,632 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:00:43,197 DEBUG my_website : App object created of flask class.
+2023-05-01 16:00:43,224 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:00:44,019 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:00:44,026 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:00:44,029 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:00:44,441 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:00:44] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 16:01:53,194 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 16:01:53,392 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:01:53,943 DEBUG my_website : App object created of flask class.
+2023-05-01 16:01:53,966 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:01:54,727 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:01:54,736 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:01:54,740 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:01:54,816 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:01:54] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 16:04:34,139 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 16:04:34,329 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:04:34,909 DEBUG my_website : App object created of flask class.
+2023-05-01 16:04:34,935 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:04:35,931 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:04:35,938 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:04:35,942 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:04:36,013 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:04:36] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 16:07:27,776 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:07:27] "GET /1063 HTTP/1.1" 200 -
+2023-05-01 16:07:28,156 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:07:28] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:07:28,230 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:07:28] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:07:28,233 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:07:28] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:08:34,219 INFO my_website : Review Sucessfully added to the Databse.
+2023-05-01 16:08:34,221 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:08:34] "POST /1063 HTTP/1.1" 200 -
+2023-05-01 16:08:34,244 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:08:34] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:08:34,547 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:08:34] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:08:34,580 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:08:34] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:08:50,639 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:08:50] "GET /1064 HTTP/1.1" 200 -
+2023-05-01 16:08:50,723 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:08:50] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:08:50,967 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:08:50] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:08:50,970 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:08:50] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:09:14,737 INFO my_website : Review Sucessfully added to the Databse.
+2023-05-01 16:09:14,738 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:09:14] "POST /1064 HTTP/1.1" 200 -
+2023-05-01 16:09:14,991 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:09:14] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:09:15,057 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:09:15] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:09:15,060 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:09:15] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:09:21,245 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:09:21] "GET /1065 HTTP/1.1" 200 -
+2023-05-01 16:09:21,323 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:09:21] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:09:21,589 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:09:21] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:09:21,590 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:09:21] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:09:29,486 INFO my_website : Review Sucessfully added to the Databse.
+2023-05-01 16:09:29,487 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:09:29] "POST /1065 HTTP/1.1" 200 -
+2023-05-01 16:09:29,729 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:09:29] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:09:29,819 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:09:29] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:09:29,821 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:09:29] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:09:38,311 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:09:38] "GET /1066 HTTP/1.1" 200 -
+2023-05-01 16:09:38,392 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:09:38] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:09:38,639 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:09:38] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:09:38,640 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:09:38] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:09:51,344 INFO my_website : Review Sucessfully added to the Databse.
+2023-05-01 16:09:51,345 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:09:51] "POST /1066 HTTP/1.1" 200 -
+2023-05-01 16:09:51,587 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:09:51] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:09:51,677 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:09:51] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:09:51,678 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:09:51] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:10:00,345 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:10:00] "GET /1071 HTTP/1.1" 200 -
+2023-05-01 16:10:00,676 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:10:00] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:10:00,679 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:10:00] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:10:00,691 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:10:00] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:10:17,322 INFO my_website : Review Sucessfully added to the Databse.
+2023-05-01 16:10:17,323 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:10:17] "POST /1071 HTTP/1.1" 200 -
+2023-05-01 16:10:17,536 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:10:17] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:10:17,644 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:10:17] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:10:17,646 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:10:17] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:10:35,721 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:10:35] "[35m[1mGET /1068 HTTP/1.1[0m" 500 -
+2023-05-01 16:10:35,750 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:10:35] "GET /1068?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-05-01 16:10:36,059 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:10:36] "GET /1068?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-05-01 16:10:36,392 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:10:36] "GET /1068?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-05-01 16:10:36,646 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:10:36] "[36mGET /1068?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-01 16:10:55,968 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:10:55] "[35m[1mGET /1068 HTTP/1.1[0m" 500 -
+2023-05-01 16:10:56,050 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:10:56] "[36mGET /1068?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:10:56,292 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:10:56] "[36mGET /1068?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-01 16:10:56,318 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:10:56] "[36mGET /1068?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-01 16:11:20,873 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:11:20] "[35m[1mGET /1069 HTTP/1.1[0m" 500 -
+2023-05-01 16:11:20,945 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:11:20] "GET /1069?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-05-01 16:11:21,208 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:11:21] "GET /1069?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-05-01 16:11:21,237 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:11:21] "GET /1069?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-05-01 16:11:21,583 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:11:21] "[36mGET /1069?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-01 16:11:48,849 ERROR my_website : Error Expecting ',' delimiter: line 1 column 64 (char 63) occur, while converting String to JSON in services.
+2023-05-01 16:11:48,854 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:11:48] "GET /1072 HTTP/1.1" 200 -
+2023-05-01 16:11:48,948 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:11:48] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:11:49,182 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:11:49] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:11:49,184 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:11:49] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:17:36,819 ERROR my_website : Error Expecting ',' delimiter: line 1 column 64 (char 63) occur, while converting String to JSON in services.
+2023-05-01 16:17:36,832 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:17:36] "GET /1072 HTTP/1.1" 200 -
+2023-05-01 16:17:36,863 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:17:36] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:17:37,164 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:17:37] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:17:37,232 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:17:37] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:17:42,477 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:17:42] "GET /login HTTP/1.1" 200 -
+2023-05-01 16:17:42,737 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:17:42] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:17:42,816 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:17:42] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:17:42,817 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:17:42] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:17:49,357 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:17:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-05-01 16:17:49,567 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:17:49] "GET /home HTTP/1.1" 200 -
+2023-05-01 16:17:49,904 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:17:49] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:17:49,907 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:17:49] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:17:49,908 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:17:49] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:19:10,741 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 16:19:11,008 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:19:11,834 DEBUG my_website : App object created of flask class.
+2023-05-01 16:19:11,868 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:19:13,519 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:19:13,533 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:19:13,538 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:19:13,612 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:19:13] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 16:20:11,164 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 16:20:11,404 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:20:11,931 DEBUG my_website : App object created of flask class.
+2023-05-01 16:20:11,954 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:20:12,724 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:20:12,731 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:20:12,735 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:20:20,816 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:20:20] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 16:21:09,797 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:21:09] "[35m[1mGET /1073 HTTP/1.1[0m" 500 -
+2023-05-01 16:21:10,343 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:21:10] "GET /1073?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-05-01 16:21:10,344 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:21:10] "GET /1073?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-05-01 16:21:10,389 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:21:10] "GET /1073?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-05-01 16:21:10,740 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:21:10] "[36mGET /1073?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-01 16:21:16,195 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:21:16] "[35m[1mGET /1074 HTTP/1.1[0m" 500 -
+2023-05-01 16:21:16,527 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:21:16] "GET /1074?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-05-01 16:21:16,531 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:21:16] "GET /1074?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-05-01 16:21:16,793 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:21:16] "GET /1074?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-05-01 16:21:16,862 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:21:16] "[36mGET /1074?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-01 16:21:19,579 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:21:19] "GET /1075 HTTP/1.1" 200 -
+2023-05-01 16:21:19,645 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:21:19] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:21:19,902 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:21:19] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:21:19,903 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:21:19] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:21:36,504 INFO my_website : Review Sucessfully added to the Databse.
+2023-05-01 16:21:36,506 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:21:36] "POST /1075 HTTP/1.1" 200 -
+2023-05-01 16:21:36,712 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:21:36] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:21:36,833 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:21:36] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:21:36,835 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:21:36] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:21:41,466 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:21:41] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2023-05-01 16:21:41,974 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:21:41] "GET /home HTTP/1.1" 200 -
+2023-05-01 16:21:42,031 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:21:42] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:21:42,292 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:21:42] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:21:42,295 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:21:42] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:22:01,106 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:22:01] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-05-01 16:22:01,422 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:22:01] "GET /login HTTP/1.1" 200 -
+2023-05-01 16:22:01,667 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:22:01] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:22:01,765 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:22:01] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:22:01,766 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:22:01] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:22:49,409 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\admin\\views.py', reloading
+2023-05-01 16:22:49,725 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:22:50,330 DEBUG my_website : App object created of flask class.
+2023-05-01 16:22:50,358 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:22:51,217 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:22:51,226 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:22:51,230 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:22:57,630 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:22:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-05-01 16:22:57,867 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:22:57] "GET /home HTTP/1.1" 200 -
+2023-05-01 16:22:57,998 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:22:57] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:22:58,206 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:22:58] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:22:58,207 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:22:58] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:23:06,293 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:23:06] "POST /pie_loader HTTP/1.1" 200 -
+2023-05-01 16:23:06,627 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:23:06] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:23:06,628 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:23:06] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:23:06,631 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:23:06] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:23:11,685 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\admin\\views.py', reloading
+2023-05-01 16:23:11,935 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:23:12,532 DEBUG my_website : App object created of flask class.
+2023-05-01 16:23:12,561 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:23:13,405 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:23:13,411 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:23:13,415 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:23:16,103 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:23:16] "POST /pie_loader HTTP/1.1" 200 -
+2023-05-01 16:23:16,167 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:23:16] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:23:16,433 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:23:16] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:23:16,449 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:23:16] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:23:16,775 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:23:16] "[36mGET /static/img/icons/favicon.ico HTTP/1.1[0m" 304 -
+2023-05-01 16:23:32,916 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:23:32] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-05-01 16:23:33,173 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:23:33] "GET /login HTTP/1.1" 200 -
+2023-05-01 16:23:33,233 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:23:33] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:23:33,505 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:23:33] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:23:33,506 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:23:33] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:24:36,309 ERROR my_website : Error Expecting ',' delimiter: line 1 column 64 (char 63) occur, while converting String to JSON in services.
+2023-05-01 16:24:36,328 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:24:36] "GET /1072 HTTP/1.1" 200 -
+2023-05-01 16:24:36,354 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:24:36] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:24:36,658 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:24:36] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:24:36,704 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:24:36] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:25:27,712 INFO my_website : Review Sucessfully added to the Databse.
+2023-05-01 16:25:27,713 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:25:27] "POST /1072 HTTP/1.1" 200 -
+2023-05-01 16:25:27,930 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:25:27] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:25:28,035 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:25:28] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:25:28,037 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:25:28] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:26:02,561 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:26:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-05-01 16:26:02,763 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:26:02] "GET /home HTTP/1.1" 200 -
+2023-05-01 16:26:02,873 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:26:02] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:26:03,104 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:26:03] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:26:03,106 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:26:03] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:26:25,614 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:26:25] "GET /user HTTP/1.1" 200 -
+2023-05-01 16:26:25,685 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:26:25] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:26:25,955 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:26:25] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:26:25,956 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:26:25] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:26:44,588 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:26:44] "[32mPOST /register HTTP/1.1[0m" 302 -
+2023-05-01 16:26:44,778 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:26:44] "GET /user HTTP/1.1" 200 -
+2023-05-01 16:26:45,106 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:26:45] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:26:45,108 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:26:45] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:26:45,129 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:26:45] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:26:51,848 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:26:51] "GET /delivery HTTP/1.1" 200 -
+2023-05-01 16:26:51,906 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:26:51] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:26:52,178 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:26:52] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:26:52,179 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:26:52] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:27:07,176 ERROR my_website : Unable to add entry in DELIVERY table, (cx_Oracle.IntegrityError) ORA-00001: unique constraint (HR.SYS_C007262) violated
+[SQL: INSERT INTO delivery_partner (d_partner_id, d_partner_name) VALUES (:d_partner_id, :d_partner_name)]
+[parameters: {'d_partner_id': '1231', 'd_partner_name': 'Express bee'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) occurs.
+2023-05-01 16:27:07,178 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:27:07] "[32mPOST /user/delivery HTTP/1.1[0m" 302 -
+2023-05-01 16:27:07,592 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:27:07] "GET /delivery HTTP/1.1" 200 -
+2023-05-01 16:27:07,608 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:27:07] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:27:07,913 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:27:07] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:27:07,945 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:27:07] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:27:11,173 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:27:11] "GET /seller HTTP/1.1" 200 -
+2023-05-01 16:27:11,208 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:27:11] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:27:11,514 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:27:11] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:27:11,516 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:27:11] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:27:14,933 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:27:14] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2023-05-01 16:27:15,433 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:27:15] "GET /home HTTP/1.1" 200 -
+2023-05-01 16:27:15,506 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:27:15] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:27:15,757 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:27:15] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:27:15,758 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:27:15] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:27:22,955 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:27:22] "POST /pie_loader HTTP/1.1" 200 -
+2023-05-01 16:27:22,986 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:27:22] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:27:23,286 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:27:23] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:27:23,287 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:27:23] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:27:41,573 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:27:41] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-05-01 16:27:41,827 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:27:41] "GET /login HTTP/1.1" 200 -
+2023-05-01 16:27:41,886 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:27:41] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:27:42,148 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:27:42] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:27:42,150 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:27:42] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:32:28,424 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\admin\\views.py', reloading
+2023-05-01 16:32:28,642 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:32:29,263 DEBUG my_website : App object created of flask class.
+2023-05-01 16:32:29,287 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:32:30,315 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:32:30,324 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:32:30,328 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:32:50,693 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:32:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-05-01 16:32:50,917 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:32:50] "GET /home HTTP/1.1" 200 -
+2023-05-01 16:32:51,049 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:32:51] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:32:51,262 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:32:51] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:32:51,264 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:32:51] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:32:58,733 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:32:58] "POST /pie_loader HTTP/1.1" 200 -
+2023-05-01 16:32:59,066 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:32:59] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:32:59,066 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:32:59] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:32:59,066 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:32:59] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:33:34,369 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\admin\\views.py', reloading
+2023-05-01 16:33:34,567 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:33:35,139 DEBUG my_website : App object created of flask class.
+2023-05-01 16:33:35,173 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:33:36,100 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:33:36,106 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:33:36,110 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:33:48,952 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\admin\\views.py', reloading
+2023-05-01 16:33:49,167 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:33:49,773 DEBUG my_website : App object created of flask class.
+2023-05-01 16:33:49,798 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:33:50,721 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:33:50,728 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:33:50,732 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:33:54,634 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:33:54] "POST /pie_loader HTTP/1.1" 200 -
+2023-05-01 16:33:54,714 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:33:54] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:33:54,964 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:33:54] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:33:54,989 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:33:54] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:35:17,234 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:35:17] "[35m[1mGET /1074 HTTP/1.1[0m" 500 -
+2023-05-01 16:35:17,310 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:35:17] "[36mGET /1074?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:35:17,574 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:35:17] "[36mGET /1074?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-01 16:35:17,608 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:35:17] "[36mGET /1074?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-01 16:38:48,790 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\admin\\views.py', reloading
+2023-05-01 16:38:48,991 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:38:49,626 DEBUG my_website : App object created of flask class.
+2023-05-01 16:38:49,657 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:38:50,552 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:38:50,564 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:38:50,573 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:39:20,663 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:39:20] "[35m[1mPOST /pie_loader HTTP/1.1[0m" 500 -
+2023-05-01 16:39:20,741 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:39:20] "GET /pie_loader?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-05-01 16:39:20,990 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:39:20] "GET /pie_loader?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-05-01 16:39:21,349 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:39:21] "GET /pie_loader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-05-01 16:39:21,611 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:39:21] "[36mGET /pie_loader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-01 16:39:55,030 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:39:55] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-05-01 16:39:55,348 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:39:55] "GET /login HTTP/1.1" 200 -
+2023-05-01 16:39:55,605 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:39:55] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:39:55,682 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:39:55] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:39:55,683 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:39:55] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:40:03,034 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:40:03] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-05-01 16:40:03,541 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:40:03] "GET /home HTTP/1.1" 200 -
+2023-05-01 16:40:03,617 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:40:03] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:40:03,881 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:40:03] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:40:03,882 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:40:03] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:40:05,701 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:40:05] "POST /pie_loader HTTP/1.1" 200 -
+2023-05-01 16:40:06,045 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:40:06] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:40:06,047 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:40:06] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:40:06,047 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:40:06] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:40:12,200 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:40:12] "[35m[1mPOST /pie_loader HTTP/1.1[0m" 500 -
+2023-05-01 16:40:12,530 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:40:12] "[36mGET /pie_loader?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:40:12,531 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:40:12] "[36mGET /pie_loader?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-01 16:40:12,796 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:40:12] "[36mGET /pie_loader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-01 16:40:12,858 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:40:12] "[36mGET /pie_loader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-01 16:45:20,842 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 16:45:21,054 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:45:21,655 DEBUG my_website : App object created of flask class.
+2023-05-01 16:45:21,682 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:45:22,592 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:45:22,600 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:45:22,604 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:45:59,931 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 16:46:00,126 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:46:00,665 DEBUG my_website : App object created of flask class.
+2023-05-01 16:46:00,689 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:46:01,572 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:46:01,580 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:46:01,583 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:46:16,623 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 16:46:16,789 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:46:17,305 DEBUG my_website : App object created of flask class.
+2023-05-01 16:46:17,327 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:46:18,086 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:46:18,092 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:46:18,096 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:46:38,583 DEBUG my_website : App object created of flask class.
+2023-05-01 16:46:38,606 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:47:30,488 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 16:47:30,644 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:47:31,192 DEBUG my_website : App object created of flask class.
+2023-05-01 16:47:31,216 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:47:32,021 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:47:32,028 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:47:32,032 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:47:32,609 DEBUG my_website : App object created of flask class.
+2023-05-01 16:47:32,631 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:48:05,095 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 16:48:05,264 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:48:05,818 DEBUG my_website : App object created of flask class.
+2023-05-01 16:48:05,839 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:48:06,651 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:48:06,661 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:48:06,664 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:48:07,057 DEBUG my_website : App object created of flask class.
+2023-05-01 16:48:07,083 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:48:34,340 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 16:48:34,389 DEBUG my_website : App object created of flask class.
+2023-05-01 16:48:34,431 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:48:34,538 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:48:35,135 DEBUG my_website : App object created of flask class.
+2023-05-01 16:48:35,158 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:48:36,003 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:48:36,011 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:48:36,015 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:50:09,746 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\admin\\views.py', reloading
+2023-05-01 16:50:09,930 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:50:10,464 DEBUG my_website : App object created of flask class.
+2023-05-01 16:50:10,498 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:50:11,326 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:50:11,332 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:50:11,336 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:50:18,902 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\admin\\views.py', reloading
+2023-05-01 16:50:19,073 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:50:19,576 DEBUG my_website : App object created of flask class.
+2023-05-01 16:50:19,601 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:50:20,521 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:50:20,528 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:50:20,531 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:50:23,857 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:50:23] "[35m[1mPOST /pie_loader HTTP/1.1[0m" 500 -
+2023-05-01 16:50:23,948 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:50:23] "[36mGET /pie_loader?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:50:24,193 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:50:24] "[36mGET /pie_loader?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-01 16:50:24,531 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:50:24] "[36mGET /pie_loader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-01 16:50:24,795 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:50:24] "[36mGET /pie_loader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-01 16:50:34,258 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:50:34] "[35m[1mPOST /pie_loader HTTP/1.1[0m" 500 -
+2023-05-01 16:50:34,282 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:50:34] "[36mGET /pie_loader?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:50:34,594 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:50:34] "[36mGET /pie_loader?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-01 16:50:34,925 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:50:34] "[36mGET /pie_loader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-01 16:50:35,189 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:50:35] "[36mGET /pie_loader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-01 16:51:20,578 DEBUG my_website : App object created of flask class.
+2023-05-01 16:51:20,602 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:51:45,788 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 16:51:45,962 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:51:46,478 DEBUG my_website : App object created of flask class.
+2023-05-01 16:51:46,500 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:51:47,323 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:51:47,332 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:51:47,336 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:51:51,588 DEBUG my_website : App object created of flask class.
+2023-05-01 16:51:51,611 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:52:09,837 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\admin\\views.py', reloading
+2023-05-01 16:52:09,989 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:52:10,500 DEBUG my_website : App object created of flask class.
+2023-05-01 16:52:10,523 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:52:11,291 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:52:11,299 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:52:11,302 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:52:15,647 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\admin\\views.py', reloading
+2023-05-01 16:52:15,808 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:52:16,314 DEBUG my_website : App object created of flask class.
+2023-05-01 16:52:16,338 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:52:17,281 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:52:17,289 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:52:17,293 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:52:20,549 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:52:20] "[35m[1mPOST /pie_loader HTTP/1.1[0m" 500 -
+2023-05-01 16:52:20,632 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:52:20] "[36mGET /pie_loader?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:52:20,878 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:52:20] "[36mGET /pie_loader?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-01 16:52:21,204 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:52:21] "[36mGET /pie_loader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-01 16:52:21,467 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:52:21] "[36mGET /pie_loader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-01 16:52:41,867 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\admin\\views.py', reloading
+2023-05-01 16:52:42,041 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:52:42,526 DEBUG my_website : App object created of flask class.
+2023-05-01 16:52:42,550 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:52:43,327 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:52:43,336 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:52:43,339 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:54:28,703 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\admin\\views.py', reloading
+2023-05-01 16:54:28,888 INFO werkzeug :  * Restarting with stat
+2023-05-01 16:54:29,417 DEBUG my_website : App object created of flask class.
+2023-05-01 16:54:29,440 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 16:54:30,267 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 16:54:30,277 WARNING werkzeug :  * Debugger is active!
+2023-05-01 16:54:30,281 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 16:54:32,035 ERROR my_website : Cant handel seller id in admin views.
+2023-05-01 16:54:32,083 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:54:32] "POST /pie_loader HTTP/1.1" 200 -
+2023-05-01 16:54:32,511 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:54:32] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:54:32,512 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:54:32] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:54:32,516 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:54:32] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:54:32,671 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:54:32] "[36mGET /static/img/icons/favicon.ico HTTP/1.1[0m" 304 -
+2023-05-01 16:54:47,024 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:54:47] "POST /pie_loader HTTP/1.1" 200 -
+2023-05-01 16:54:47,039 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:54:47] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:54:47,345 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:54:47] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:54:47,375 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:54:47] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:54:49,627 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:54:49] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-05-01 16:54:49,891 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:54:49] "GET /login HTTP/1.1" 200 -
+2023-05-01 16:54:49,934 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:54:49] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:54:50,216 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:54:50] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:54:50,217 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:54:50] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:55:57,636 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:55:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-05-01 16:55:57,854 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:55:57] "GET /home HTTP/1.1" 200 -
+2023-05-01 16:55:57,953 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:55:57] "GET /static/css/admin/admin_style.css HTTP/1.1" 200 -
+2023-05-01 16:55:58,187 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:55:58] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:55:58,188 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:55:58] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:56:27,997 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:56:27] "GET /home HTTP/1.1" 200 -
+2023-05-01 16:56:28,094 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:56:28] "GET /static/css/admin/admin_style.css HTTP/1.1" 200 -
+2023-05-01 16:56:28,328 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:56:28] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:56:28,329 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:56:28] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:56:28,344 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:56:28] "[36mGET /static/img/icons/favicon.ico HTTP/1.1[0m" 304 -
+2023-05-01 16:56:42,107 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:56:42] "GET /home HTTP/1.1" 200 -
+2023-05-01 16:56:42,174 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:56:42] "GET /static/css/admin/admin_style.css HTTP/1.1" 200 -
+2023-05-01 16:56:42,437 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:56:42] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:56:42,439 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:56:42] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:56:42,458 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:56:42] "[36mGET /static/img/icons/favicon.ico HTTP/1.1[0m" 304 -
+2023-05-01 16:56:51,625 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:56:51] "GET /home HTTP/1.1" 200 -
+2023-05-01 16:56:51,717 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:56:51] "GET /static/css/admin/admin_style.css HTTP/1.1" 200 -
+2023-05-01 16:56:51,982 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:56:51] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:56:51,985 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:56:51] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:56:52,003 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:56:52] "[36mGET /static/img/icons/favicon.ico HTTP/1.1[0m" 304 -
+2023-05-01 16:56:54,792 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:56:54] "POST /pie_loader HTTP/1.1" 200 -
+2023-05-01 16:56:54,822 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:56:54] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:56:55,138 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:56:55] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:56:55,140 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:56:55] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:57:01,803 ERROR my_website : Cant handel seller id in admin views.
+2023-05-01 16:57:01,818 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:57:01] "POST /pie_loader HTTP/1.1" 200 -
+2023-05-01 16:57:01,841 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:57:01] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:57:02,143 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:57:02] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 16:57:02,174 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:57:02] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:57:18,876 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:57:18] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-05-01 16:57:19,123 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:57:19] "GET /login HTTP/1.1" 200 -
+2023-05-01 16:57:19,185 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:57:19] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 16:57:19,464 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:57:19] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 16:57:19,464 INFO werkzeug : 127.0.0.1 - - [01/May/2023 16:57:19] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:04:16,871 DEBUG my_website : App object created of flask class.
+2023-05-01 22:04:16,976 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 22:04:23,316 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 22:04:23,403 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-01 22:04:23,406 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-05-01 22:04:23,415 INFO werkzeug :  * Restarting with stat
+2023-05-01 22:04:24,406 DEBUG my_website : App object created of flask class.
+2023-05-01 22:04:24,434 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 22:04:25,488 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 22:04:25,502 WARNING werkzeug :  * Debugger is active!
+2023-05-01 22:04:25,509 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 22:04:51,009 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 22:04:51,237 INFO werkzeug :  * Restarting with stat
+2023-05-01 22:04:52,096 DEBUG my_website : App object created of flask class.
+2023-05-01 22:04:52,124 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 22:04:53,267 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 22:04:53,277 WARNING werkzeug :  * Debugger is active!
+2023-05-01 22:04:53,282 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 22:07:38,486 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\test.py', reloading
+2023-05-01 22:07:38,718 INFO werkzeug :  * Restarting with stat
+2023-05-01 22:07:39,412 DEBUG my_website : App object created of flask class.
+2023-05-01 22:07:39,439 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 22:07:40,557 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 22:07:40,573 WARNING werkzeug :  * Debugger is active!
+2023-05-01 22:07:40,581 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 22:07:40,948 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:07:40] "POST /order_detail/post HTTP/1.1" 200 -
+2023-05-01 22:11:04,234 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:11:04] "GET /1081/Pass HTTP/1.1" 200 -
+2023-05-01 22:11:04,727 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:11:04] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2023-05-01 22:11:05,172 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:11:05] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
+2023-05-01 22:11:05,275 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:11:05] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+2023-05-01 22:11:30,977 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-01 22:11:31,398 INFO werkzeug :  * Restarting with stat
+2023-05-01 22:11:34,105 DEBUG my_website : App object created of flask class.
+2023-05-01 22:11:34,208 INFO my_website : Object created of SQLAlchemy class.
+2023-05-01 22:11:38,633 DEBUG my_website : Running app now on port no 5000.
+2023-05-01 22:11:38,675 WARNING werkzeug :  * Debugger is active!
+2023-05-01 22:11:38,690 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-01 22:11:54,020 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:11:54] "GET /1081 HTTP/1.1" 200 -
+2023-05-01 22:11:54,396 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:11:54] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:11:54,413 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:11:54] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:11:54,462 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:11:54] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:11:55,355 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:11:55] "[36mGET /static/img/icons/favicon.ico HTTP/1.1[0m" 304 -
+2023-05-01 22:13:27,471 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:13:27] "GET /1072 HTTP/1.1" 200 -
+2023-05-01 22:13:27,713 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:13:27] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:13:27,852 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:13:27] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:13:27,855 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:13:27] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:13:38,978 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:13:38] "GET /1072 HTTP/1.1" 200 -
+2023-05-01 22:13:39,231 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:13:39] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:13:39,353 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:13:39] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:13:39,357 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:13:39] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:13:50,021 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:13:50] "GET /1081 HTTP/1.1" 200 -
+2023-05-01 22:13:50,082 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:13:50] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:13:50,388 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:13:50] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:13:50,435 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:13:50] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:15:17,138 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:15:17] "GET /1081 HTTP/1.1" 200 -
+2023-05-01 22:15:17,215 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:15:17] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:15:17,534 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:15:17] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:15:17,660 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:15:17] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:16:47,822 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:16:47] "GET /1072 HTTP/1.1" 200 -
+2023-05-01 22:16:48,142 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:16:48] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:16:48,284 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:16:48] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:16:48,317 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:16:48] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:16:55,273 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:16:55] "GET /1072 HTTP/1.1" 200 -
+2023-05-01 22:16:55,649 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:16:55] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:16:55,651 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:16:55] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:16:55,755 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:16:55] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:17:03,583 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:17:03] "GET /1072 HTTP/1.1" 200 -
+2023-05-01 22:17:03,954 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:17:03] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:17:03,956 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:17:03] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:17:04,060 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:17:04] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:17:40,165 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:17:40] "GET /1081 HTTP/1.1" 200 -
+2023-05-01 22:17:41,076 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:17:41] "GET /static/css/customer/feedback_style.css HTTP/1.1" 200 -
+2023-05-01 22:17:41,087 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:17:41] "GET /static/img/icons/fynd_l.jpg HTTP/1.1" 200 -
+2023-05-01 22:17:41,849 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:17:41] "GET /static/img/icons/Fynd_Logo.png HTTP/1.1" 200 -
+2023-05-01 22:17:43,493 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:17:43] "GET /static/img/icons/favicon.ico HTTP/1.1" 200 -
+2023-05-01 22:18:18,364 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:18:18] "GET /1072 HTTP/1.1" 200 -
+2023-05-01 22:18:18,818 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:18:18] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:18:19,144 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:18:19] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:18:19,157 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:18:19] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:18:33,961 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:18:33] "GET /1072 HTTP/1.1" 200 -
+2023-05-01 22:18:34,191 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:18:34] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:18:34,477 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:18:34] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:18:34,480 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:18:34] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:18:39,604 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:18:39] "GET /1072 HTTP/1.1" 200 -
+2023-05-01 22:18:40,220 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:18:40] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:18:40,240 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:18:40] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:18:40,287 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:18:40] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:19:32,078 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:19:32] "GET /1072 HTTP/1.1" 200 -
+2023-05-01 22:19:32,337 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:19:32] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:19:32,636 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:19:32] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:19:32,638 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:19:32] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:20:27,039 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:20:27] "GET /1081 HTTP/1.1" 200 -
+2023-05-01 22:20:27,270 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:20:27] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:20:27,285 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:20:27] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:20:27,599 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:20:27] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:20:59,284 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:20:59] "GET /1081 HTTP/1.1" 200 -
+2023-05-01 22:20:59,517 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:20:59] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:20:59,833 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:20:59] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:20:59,869 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:20:59] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:22:51,085 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:22:51] "GET /1081 HTTP/1.1" 200 -
+2023-05-01 22:22:51,151 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:22:51] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:22:51,467 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:22:51] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:22:51,607 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:22:51] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:30:10,169 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:30:10] "GET /1081 HTTP/1.1" 200 -
+2023-05-01 22:30:10,240 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:30:10] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:30:10,551 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:30:10] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:30:10,703 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:30:10] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:30:33,719 INFO my_website : Review Sucessfully added to the Databse.
+2023-05-01 22:30:33,725 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:30:33] "POST /1081 HTTP/1.1" 200 -
+2023-05-01 22:30:33,829 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:30:33] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:30:34,133 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:30:34] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:30:34,230 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:30:34] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:30:46,550 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:30:46] "GET /login HTTP/1.1" 200 -
+2023-05-01 22:30:46,789 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:30:46] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:30:46,919 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:30:46] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:30:46,921 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:30:46] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:31:36,426 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:31:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-05-01 22:31:37,812 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:31:37] "GET /home HTTP/1.1" 200 -
+2023-05-01 22:31:37,895 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:31:37] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:31:38,207 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:31:38] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:31:38,284 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:31:38] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:31:46,601 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:31:46] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-05-01 22:31:46,860 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:31:46] "GET /login HTTP/1.1" 200 -
+2023-05-01 22:31:46,928 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:31:46] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:31:47,230 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:31:47] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:31:47,308 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:31:47] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:31:54,439 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:31:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-05-01 22:31:55,144 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:31:55] "GET /home HTTP/1.1" 200 -
+2023-05-01 22:31:55,515 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:31:55] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:31:55,518 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:31:55] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:31:55,569 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:31:55] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:31:57,458 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:31:57] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-05-01 22:31:57,792 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:31:57] "GET /login HTTP/1.1" 200 -
+2023-05-01 22:31:58,057 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:31:58] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:31:58,169 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:31:58] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:31:58,171 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:31:58] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:32:40,046 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:32:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-05-01 22:32:41,202 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:32:41] "GET /home HTTP/1.1" 200 -
+2023-05-01 22:32:41,271 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:32:41] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:32:41,575 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:32:41] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:32:41,656 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:32:41] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:32:47,816 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:32:47] "GET /user HTTP/1.1" 200 -
+2023-05-01 22:32:47,896 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:32:47] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:32:48,207 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:32:48] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:32:48,283 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:32:48] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:33:03,215 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:33:03] "[32mPOST /register HTTP/1.1[0m" 302 -
+2023-05-01 22:33:04,088 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:33:04] "GET /user HTTP/1.1" 200 -
+2023-05-01 22:33:04,472 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:33:04] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:33:04,476 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:33:04] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:33:04,526 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:33:04] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:33:32,534 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:33:32] "[32mPOST /update HTTP/1.1[0m" 302 -
+2023-05-01 22:33:33,993 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:33:33] "GET /user HTTP/1.1" 200 -
+2023-05-01 22:33:34,061 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:33:34] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:33:34,366 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:33:34] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:33:34,447 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:33:34] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:33:42,397 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:33:42] "[32mPOST /delete HTTP/1.1[0m" 302 -
+2023-05-01 22:33:43,410 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:33:43] "GET /user HTTP/1.1" 200 -
+2023-05-01 22:33:43,475 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:33:43] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:33:43,787 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:33:43] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:33:43,851 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:33:43] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:33:49,129 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:33:49] "GET /delivery HTTP/1.1" 200 -
+2023-05-01 22:33:49,202 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:33:49] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:33:49,514 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:33:49] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:33:49,591 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:33:49] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:34:03,737 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:03] "[32mPOST /user/delivery HTTP/1.1[0m" 302 -
+2023-05-01 22:34:04,787 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:04] "GET /delivery HTTP/1.1" 200 -
+2023-05-01 22:34:04,861 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:04] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:34:05,175 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:05] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:34:05,254 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:05] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:34:08,693 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:08] "GET /seller HTTP/1.1" 200 -
+2023-05-01 22:34:08,766 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:08] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:34:09,075 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:09] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:34:09,142 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:09] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:34:26,343 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:26] "[32mPOST /user/seller HTTP/1.1[0m" 302 -
+2023-05-01 22:34:27,416 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:27] "GET /seller HTTP/1.1" 200 -
+2023-05-01 22:34:27,487 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:27] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:34:27,796 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:27] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:34:27,874 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:27] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:34:30,827 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:30] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2023-05-01 22:34:31,893 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:31] "GET /home HTTP/1.1" 200 -
+2023-05-01 22:34:31,967 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:31] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:34:32,274 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:32] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:34:32,353 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:32] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:34:43,258 ERROR my_website : Cant handel seller id in admin views.
+2023-05-01 22:34:43,325 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:43] "POST /pie_loader HTTP/1.1" 200 -
+2023-05-01 22:34:43,425 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:43] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:34:43,741 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:43] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-01 22:34:43,804 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:43] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:34:58,643 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:58] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-05-01 22:34:58,905 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:58] "GET /login HTTP/1.1" 200 -
+2023-05-01 22:34:58,975 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:58] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-01 22:34:59,278 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:59] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-01 22:34:59,389 INFO werkzeug : 127.0.0.1 - - [01/May/2023 22:34:59] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-02 18:14:55,320 DEBUG my_website : App object created of flask class.
+2023-05-02 18:14:55,374 INFO my_website : Object created of SQLAlchemy class.
+2023-05-02 18:17:21,228 DEBUG my_website : App object created of flask class.
+2023-05-02 18:18:02,817 DEBUG my_website : App object created of flask class.
+2023-05-02 18:18:02,880 INFO my_website : Object created of SQLAlchemy class.

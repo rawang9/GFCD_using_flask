@@ -86,11 +86,14 @@ def pie_loader(district):
 
         sellers = json.loads(review.seller_review)
         for seller_review in sellers:
-            seller_id = int(list(seller_review.keys())[0])
-            if seller_chart.get(seller_id) == None:
-                seller_chart[seller_id]= {'EXELENT':0,'VERY GOOD':0,'GOOD':0,'NOT GOOD':0,'BAD':0}
-            seller_rating = int(list(seller_review.values())[0])
-            seller_chart[seller_id][scale[seller_rating]] +=1
+            try:
+                seller_id = int(list(seller_review.keys())[0])
+                if seller_chart.get(seller_id) == None:
+                    seller_chart[seller_id]= {'EXELENT':0,'VERY GOOD':0,'GOOD':0,'NOT GOOD':0,'BAD':0}
+                seller_rating = int(list(seller_review.values())[0])
+                seller_chart[seller_id][scale[seller_rating]] +=1
+            except Exception as e:
+                app.logger.error("Cant handel seller id in admin views.")
 
     # print(delivery_chart,seller_chart)
     with app.app_context():
@@ -122,9 +125,9 @@ def pie_loader(district):
         for child_key in seller_chart[key]:
             seller_chart[key][child_key] = (seller_chart[key][child_key]/no_of_review)*360 + prev_value
             prev_value = seller_chart[key][child_key]
+    print(seller_chart,delivery_chart,district)
     return {'d_chart':delivery_chart,'s_chart':seller_chart,'d_details':delivery_details,
             's_details':seller_details,'location' : district.capitalize()}
-
 @app.route('/register',methods = ['POST'])
 @login_required
 def register_form():
@@ -257,6 +260,8 @@ def option(clicked_on):
             pos_comment = Review.query.filter_by(comment_type=1).count()
             neutral_comment = Review.query.filter_by(comment_type=0).count()
         total_comment = neg_comment+pos_comment+neutral_comment
+        if total_comment == 0:
+            total_comment = 1
         all_comment = {'postive':(pos_comment/total_comment)*100,
                     'negative':(neg_comment/total_comment)*100,
                     'neutral':(neutral_comment/total_comment)*100}

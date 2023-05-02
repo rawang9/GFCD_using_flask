@@ -31,7 +31,9 @@ app = Flask(__name__)
 app.logger.debug("App object created of flask class.")
 
 #setting up app config for SQLAlchemy 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'oracle://hr:hr@localhost:1521/xe'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://aki:O1ohOE8WFc3N3jQRDqvUi20yHJoz2Lbs@dpg-ch8ft8g2qv2864t1nlr0-a.singapore-postgres.render.com/gdfc'
+# 'oracle://hr:hr@localhost:1521/xe'
+
 app.config["SECRET_KEY"] = "10111999"
 db = SQLAlchemy(app)
 app.logger.info("Object created of SQLAlchemy class.")

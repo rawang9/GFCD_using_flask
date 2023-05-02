@@ -82,13 +82,44 @@ def check():
 @app.route('/order_detail/post',methods = ['POST'])
 def handle_order():
     data = request.json
-    import json
-    order_detail  = json.loads(data['order_items'])
-    
-    print(order_detail,type(order_detail))
+    from data_base import Order_details,db
     respose = {'message':data}
-    return respose,200
-
+    try:
+        entry = Order_details(customer_email = data['customer_email'],address_pin = data['address_pin'],
+                          order_items = data['order_items'],delivery_id = data['delivery_id'])
+        with app.app_context():
+            db.session.add(entry)
+            db.session.commit()
+        respose['message'] = "Data Added Successfully in Order_table with delivery status Pending."
+        return respose,200
+    except Exception as e:
+        app.logger.info('Cant process POST request came for adding entry in Order table.')
+        respose['message'] = f"Error while adding Entry {e}."
+        return respose,400
+    
+@app.route('/<int:id>/<change_status>',methods = ['GET'])
+def delivery_status(id,change_status):
+    from data_base import Order_details,db
+    from data_base import DELIVERY_STATE
+    respose = {'message':None}
+    if DELIVERY_STATE.get(change_status)==None:
+        respose['message'] = f'plese proive status in {DELIVERY_STATE.keys()} type.'
+        return respose,400
+    try:
+        with app.app_context():
+            entry_query = Order_details.query.filter_by(order_id = id).first()
+            if entry_query:
+                entry_query.delivery_status = DELIVERY_STATE[change_status]
+                db.session.commit()
+                respose['message'] = "Data Updated Successfully in Order_table with delivery status Pending."
+                return respose,200
+            else:
+                respose['message'] = f"No entry found with {id}."
+                return respose,400
+    except Exception as e:
+        app.logger.info('Cant process GET request came for changing delivery state in Order table.')
+        respose['message'] = "Error while changing delivery state"
+        return respose,400
 
 
 
