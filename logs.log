@@ -12792,3 +12792,9 @@
 2023-05-03 13:04:08,977 INFO werkzeug :  * Debugger PIN: 564-069-486
 2023-05-03 13:04:22,996 INFO werkzeug :  * Detected change in 'C:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\__init__.py', reloading
 2023-05-03 13:04:23,212 INFO werkzeug :  * Restarting with stat
+2023-05-03 13:04:23,780 DEBUG my_website : App object created of flask class.
+2023-05-03 13:04:23,827 INFO my_website : Object created of SQLAlchemy class.
+2023-05-03 13:04:28,365 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-03 13:04:28,479 DEBUG my_website : Running app now on port no 5000.
+2023-05-03 13:04:28,488 WARNING werkzeug :  * Debugger is active!
+2023-05-03 13:04:28,497 INFO werkzeug :  * Debugger PIN: 564-069-486
