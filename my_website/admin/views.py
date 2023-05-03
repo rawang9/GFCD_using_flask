@@ -5,12 +5,13 @@ from data_base import Authority
 from flask_wtf import FlaskForm
 from wtforms import EmailField,PasswordField,SubmitField,SelectField
 from wtforms.validators import InputRequired, Length,Email
+import os
 
 
 login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = 'login'
-ROOT_ADMIN = "akarshitgupta29@gmail.com"
+ROOT_ADMIN = os.environ.get('ROOT_ADMIN')
 
 
 

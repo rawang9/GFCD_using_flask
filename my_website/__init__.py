@@ -2,6 +2,7 @@ try:
     from flask_bcrypt import Bcrypt
     from flask_sqlalchemy import SQLAlchemy
     from flask import Flask
+    import os
     import logging
 except Exception as e:
     print("Could not import module in my_website package")
@@ -31,10 +32,8 @@ app = Flask(__name__)
 app.logger.debug("App object created of flask class.")
 
 #setting up app config for SQLAlchemy 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://aki:O1ohOE8WFc3N3jQRDqvUi20yHJoz2Lbs@dpg-ch8ft8g2qv2864t1nlr0-a.singapore-postgres.render.com/gdfc'
-# 'oracle://hr:hr@localhost:1521/xe'
-
-app.config["SECRET_KEY"] = "10111999"
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL')
+app.config["SECRET_KEY"] = os.environ.get('SECRET_KEY')
 db = SQLAlchemy(app)
 app.logger.info("Object created of SQLAlchemy class.")
 

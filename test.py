@@ -147,6 +147,9 @@
 #     print("Data Added Sucessfully.")
 # except Exception as e:
 #     app.logger.error(f"Error while inserting user in Authority.-> {e}")
+import os
+db = os.environ.get('SECRET_KEY')
+print(db)
 
 
 
