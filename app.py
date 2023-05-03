@@ -10,4 +10,4 @@ data_base.structure_db()
 
 if __name__ == "__main__":
     app.logger.debug("Running app now on port no 5000.")
-    app.run(debug=True)
+    app.run(debug=False)
