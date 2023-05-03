@@ -10,7 +10,7 @@ from wtforms.validators import InputRequired, Length,Email
 login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = 'login'
-
+ROOT_ADMIN = "akarshitgupta29@gmail.com"
 
 
 
@@ -128,6 +128,7 @@ def pie_loader(district):
     print(seller_chart,delivery_chart,district)
     return {'d_chart':delivery_chart,'s_chart':seller_chart,'d_details':delivery_details,
             's_details':seller_details,'location' : district.capitalize()}
+
 @app.route('/register',methods = ['POST'])
 @login_required
 def register_form():
@@ -164,20 +165,23 @@ def update_form():
     if len(data['password']) < 8:
         flash("Please enter password of more then eight length.")
         return redirect(url_for('option',clicked_on='user'))
-    try:
-        hashed_password = bcrypt.generate_password_hash(data['password'])
-        with app.app_context():
-            user = Authority.query.filter_by(user_id = data['user_email']).first()
-            if user is None:
-                flash(f"User {data['user_email']} not found")
-            else:
-                user.role = data['role']
-                user.password = hashed_password.decode('utf-8')
-                db.session.commit()
-                flash(f"User {data['user_email']} Updated sucessfully")
-    except Exception as e:
-        app.logger.error(f"Error while inserting user in Authority.-> {e}")
-        flash(f"User with {data['user_email']} already Exist.")  
+    if data['user_email']== ROOT_ADMIN and data['role']=="VIEWER":
+        flash("Action not allowed,Cant Update Role of Root Admin.")
+    else:
+        try:
+            hashed_password = bcrypt.generate_password_hash(data['password'])
+            with app.app_context():
+                user = Authority.query.filter_by(user_id = data['user_email']).first()
+                if user is None:
+                    flash(f"User {data['user_email']} not found")
+                else:
+                    user.role = data['role']
+                    user.password = hashed_password.decode('utf-8')
+                    db.session.commit()
+                    flash(f"User {data['user_email']} Updated sucessfully")
+        except Exception as e:
+            app.logger.error(f"Error while inserting user in Authority.-> {e}")
+            flash(f"User with {data['user_email']} already Exist.")  
     return redirect(url_for('option',clicked_on='user'))
 
     
@@ -190,6 +194,8 @@ def delete_form():
         data[names] = form[names]
     if check_id(data['user_email']):
         flash(f"User with {data['user_email']} do not Exist.")  
+    elif data['user_email'] == ROOT_ADMIN:
+        flash("Action not allowed, Cant delete Owner Root Admin.")
     else:
         try:
             with app.app_context():
@@ -265,6 +271,7 @@ def option(clicked_on):
         all_comment = {'postive':(pos_comment/total_comment)*100,
                     'negative':(neg_comment/total_comment)*100,
                     'neutral':(neutral_comment/total_comment)*100}
+        
         #till hear
         mini_window = clicked_on
         if clicked_on == 'user':

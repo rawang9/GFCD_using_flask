@@ -116,7 +116,6 @@ class Customer_class:
         except Exception as e:
             app.logger.error(f"Encounter error {e} while formating data in services.")    
         #inserting row into Review table.
-        print(entry_data)
         try:
             entry =  Review(order_id = entry_data['order_id'], seller_review = entry_data['seller_review'],
                             deliver_review = entry_data['delivery_review'], comment = entry_data['comment'],
@@ -124,11 +123,6 @@ class Customer_class:
             with app.app_context():
                 db.session.add(entry)
                 db.session.commit()
-                #storing bad serices to process them later
-                if entry_data['comment_type'] == -1 or mimetype != None:
-                        bad_entry = Bad_review(order_id = entry_data['order_id'])
-                        db.session.add(bad_entry)
-                        db.session.commit()
             return True
         except Exception as e:
             app.logger.error(f"Cant insert value in database {e} error occured in Service.")

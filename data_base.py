@@ -85,12 +85,28 @@ pending_trigger   = text(f"""
                             FOR EACH ROW
                             EXECUTE FUNCTION o_one();  
                         """)
+bad_review_trigger = text("""
+                            CREATE OR REPLACE FUNCTION bad_review() RETURNS TRIGGER AS $$
+                            BEGIN
+                                IF NEW.comment_type = -1 OR NEW.img_type is not null  THEN
+                                    INSERT INTO Bad_review (order_id)
+                                    VALUES (NEW.order_id);
+                                END IF;
+                                RETURN NEW;
+                            END;
+                            $$ LANGUAGE plpgsql;
 
+                            CREATE TRIGGER bad_review
+                            AFTER insert ON Review
+                            FOR EACH ROW
+                            EXECUTE FUNCTION bad_review();
+                          """)
 def structure_db():
     with app.app_context():
         db.create_all()
         try:
             db.session.execute(pending_trigger)
+            db.session.execute(bad_review_trigger)
         except Exception as e:
             app.logger.info('Either pending trigger alredy present or some error occur')
         finally:

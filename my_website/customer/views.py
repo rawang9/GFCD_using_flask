@@ -62,10 +62,12 @@ def Upload():
 
     else:
         return render_template('/index.html'),400
+    
+#funtion for getting image using order_id
 # @app.route("/get/<int:id>")
 def get_img(id):
     from data_base import Review
-    with app.app_context:
+    with app.app_context():
         img = Review.query.filter_by(order_id = id).first()
     if not img:
         return 'no img with this id',404

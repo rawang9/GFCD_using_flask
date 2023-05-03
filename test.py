@@ -115,7 +115,7 @@
 #             "customer_email":"akarshitg9@gmail.com",
 #             "address_pin":273015,
 #             "order_items":'[{"item_id":11311,"qty":1,"seller_id":1022,"item_type":"tshirt"}]',
-#             "delivery_id":12938,
+#             "delivery_id":9111,
 #         }
 
 # # Convert the data to JSON format
@@ -132,16 +132,22 @@
 
 # # Print the response from the Flask API endpoint
 # print(response.text)
-from my_website import db
-try:
-    db.engine.execute("CREATE TABLE DEPARTMENT( ID INT PRIMARY KEY NOT NULL,DEPT CHAR(50) NOT NULL,\
-   EMP_ID INT NOT NULL);")
-    db.session.commit()
-except Exception:
-    pass
-print("done")
 
-    
+#to create admin user
+# from my_website import bcrypt
+# from data_base import Authority,app,db
+# hashed_password = bcrypt.generate_password_hash("akarshitg9")
+# new_user = Authority(user_id = "akarshitgupta29@gmail.com",
+#                     password = hashed_password.decode('utf-8'),
+#                     role = "ADMIN")
+# try:
+#     with app.app_context():
+#         db.session.add(new_user)
+#         db.session.commit()
+#     print("Data Added Sucessfully.")
+# except Exception as e:
+#     app.logger.error(f"Error while inserting user in Authority.-> {e}")
+
 
 
 

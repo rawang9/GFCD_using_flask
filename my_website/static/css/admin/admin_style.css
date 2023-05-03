@@ -65,11 +65,11 @@
 .top-bar {
   margin-left: 30%;
   margin-top: 25px;
-  color: rgb(233, 255, 255);
+  background-color: rgb(255, 255, 255);
   padding-left: 3px;
   font-weight: bolder;
   align-items: center;
-  height: 75px;
+  height: 77px;
   text-align: center;
   overflow: hidden;
   font-size: 20px;
@@ -82,19 +82,19 @@ left padding is 100px */
 .happy {
   float: left;
   background: rgb(5, 255, 59);
-  padding: 25px 0px 0px 1%;
+  padding: 25px 0px 0px 0%;
 }
 
 .neutral {
   float: left;
-  background: rgba(127, 127, 51, 0.995);
-  padding: 25px 0px 0px 1%;
+  background: rgba(128, 128, 29, 0.995);
+  padding: 25px 0px 0px 0%;
 }
 
 .sad {
   float: left;
   background: rgb(255, 30, 0);
-  padding: 25px 0px 0px 1%;
+  padding: 25px 0px 0px 0%;
 }
 
 .login-form {
