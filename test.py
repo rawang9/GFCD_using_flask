@@ -107,33 +107,39 @@
 # print(delivery_chart,seller_chart)
 
 
-import requests
-import json
-#add order details
-# Define the data to be sent in JSON format
-data =  {  
-            "customer_email":"akarshitg9@gmail.com",
-            "address_pin":273015,
-            "order_items":'[{"item_id":11311,"qty":1,"seller_id":1022,"item_type":"tshirt"}]',
-            "delivery_id":12938,
-        }
+# import requests
+# import json
+# #add order details
+# # Define the data to be sent in JSON format
+# data =  {  
+#             "customer_email":"akarshitg9@gmail.com",
+#             "address_pin":273015,
+#             "order_items":'[{"item_id":11311,"qty":1,"seller_id":1022,"item_type":"tshirt"}]',
+#             "delivery_id":12938,
+#         }
 
-# Convert the data to JSON format
-json_data = json.dumps(data)
-print(json_data)
-# Set the headers to indicate that the data is in JSON format
-headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}
+# # Convert the data to JSON format
+# json_data = json.dumps(data)
+# print(json_data)
+# # Set the headers to indicate that the data is in JSON format
+# headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}
 
-# Set the URL of the Flask POST API endpoint
-url = 'http://localhost:5000/order_detail/post'
+# # Set the URL of the Flask POST API endpoint
+# url = 'http://localhost:5000/order_detail/post'
 
-# Send the POST request to the Flask API endpoint with the JSON data and headers
-response = requests.post(url, data=json_data, headers=headers)
+# # Send the POST request to the Flask API endpoint with the JSON data and headers
+# response = requests.post(url, data=json_data, headers=headers)
 
-# Print the response from the Flask API endpoint
-print(response.text)
-
-
+# # Print the response from the Flask API endpoint
+# print(response.text)
+from my_website import db
+try:
+    db.engine.execute("CREATE TABLE DEPARTMENT( ID INT PRIMARY KEY NOT NULL,DEPT CHAR(50) NOT NULL,\
+   EMP_ID INT NOT NULL);")
+    db.session.commit()
+except Exception:
+    pass
+print("done")
 
     
 
