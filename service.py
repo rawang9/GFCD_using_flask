@@ -1,7 +1,11 @@
 from my_website import app,db
-from data_base import Review,Order_details,Bad_review
+from data_base import Review,Order_details,Bad_review,Pending_feedback
 from pandas import read_csv
 import json
+import os
+import smtplib as sm
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText 
 #used for sentiment analysis of text
 from textblob import TextBlob
 #pillow library for editing image
@@ -129,18 +133,47 @@ class Customer_class:
             return False
 
 
-
-    
-
-            
-            
-            
-            
-
-
-
-
-            
+class Schedule:
+    @staticmethod
+    def send_mail():
+        #need_to_send = [{"email_id":"abc@gmail.com","order_id":1234}]
+        need_to_send = []
+        try:
+            with app.app_context():
+                pending_query = Pending_feedback.query.all()
+                for row in pending_query:
+                    if row.days_left-1 == 0:
+                        email_data = {"email_id":row.email_id,"order_id":row.order_id}
+                        need_to_send.append(email_data)
+                        db.session.delete(row)
+                    else:
+                        row.days_left -=1
+                db.session.commit()
+            app.logger.info("Provided lsit of mail to once_a_dat file.")
+        except:
+            app.logger.error("Unable to perform fetch email on Pending_feedback")
+        if len(need_to_send) > 0:
+            try:
+                with sm.SMTP("smtp.gmail.com") as connnection:
+                    connnection.starttls()
+                    connnection.login(user= os.environ.get('COMPANY_EMAIL'),
+                                    password=os.environ.get('EMAIL_PASS'))    
+                    for user_data in need_to_send:
+                        CUSTOMER_EMAIL = user_data['email_id']
+                        LINK           = f"https://customer-feedback-dashboard.onrender.com/{user_data['order_id']}"
+                        MESSAGE        = "Hey ,\n\nThanks for shopping from fynd. We would appreciate it if you can spare a little " \
+                                        f"of your time and provide us your valuable feedback by clicking  on  {LINK} " \
+                                        "\n\nthank you."
+                        msg = MIMEMultipart()
+                        msg['From']    = os.environ.get('COMPANY_EMAIL')
+                        msg['To'] = CUSTOMER_EMAIL
+                        msg['Subject'] = "Fynd feedback regarding your recent order"
+                        msg.attach(MIMEText(MESSAGE))
+                        connnection.sendmail(from_addr=os.environ.get('COMPANY_EMAIL'),to_addrs=CUSTOMER_EMAIL,
+                                             msg = msg.as_string())
+                app.logger.info("All mail Send Sucessfully.")
+            except Exception as e:
+                app.logger.error(f"Error {e} orrcur while Sending mail to the customers.")
 
 
 

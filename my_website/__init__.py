@@ -40,6 +40,14 @@ app.logger.info("Object created of SQLAlchemy class.")
 #binding Bcrypt to mathing plain text to hash value
 bcrypt = Bcrypt(app)
 
+# #config app for email server
+# app.config['MAIL_SERVER'] = 'smtp.gmail.com'
+# app.config['MAIL_PORT']   = 465
+# app.config['MAIL_USERNAME'] = os.environ.get('COMPANY_EMAIL')
+# app.config['MAIL_PASSWORD'] = ''
+# app.config['MAIL_USE_TLS']  = False
+# app.config['MAIL_USE_SSL']  = True
+
 
 
 

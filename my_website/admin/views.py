@@ -37,10 +37,6 @@ def login():
                 return redirect(url_for('option',clicked_on = 'home'))
     return render_template('Admin/login.html',form = form)
 
-@app.route('/dashboard',methods = ['GET','POST'])
-@login_required
-def dashboard():
-    return redirect(url_for('option',clicked_on = 'home'))
 
 @app.route('/logout',methods = ['GET','POST'])
 @login_required

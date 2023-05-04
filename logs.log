@@ -12798,3 +12798,192 @@
 2023-05-03 13:04:28,479 DEBUG my_website : Running app now on port no 5000.
 2023-05-03 13:04:28,488 WARNING werkzeug :  * Debugger is active!
 2023-05-03 13:04:28,497 INFO werkzeug :  * Debugger PIN: 564-069-486
+2023-05-03 15:50:22,756 DEBUG my_website : App object created of flask class.
+2023-05-03 15:50:22,865 INFO my_website : Object created of SQLAlchemy class.
+2023-05-03 15:50:31,273 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-03 15:50:31,494 DEBUG my_website : Running app now on port no 5000.
+2023-05-03 15:50:31,512 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-03 15:50:31,513 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-05-03 15:53:18,505 INFO werkzeug : 127.0.0.1 - - [03/May/2023 15:53:18] "GET / HTTP/1.1" 200 -
+2023-05-03 15:53:18,627 INFO werkzeug : 127.0.0.1 - - [03/May/2023 15:53:18] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2023-05-03 15:53:18,664 INFO werkzeug : 127.0.0.1 - - [03/May/2023 15:53:18] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
+2023-05-03 15:53:18,743 INFO werkzeug : 127.0.0.1 - - [03/May/2023 15:53:18] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+2023-05-03 16:03:01,057 INFO werkzeug : 127.0.0.1 - - [03/May/2023 16:03:01] "GET / HTTP/1.1" 200 -
+2023-05-03 16:03:01,137 INFO werkzeug : 127.0.0.1 - - [03/May/2023 16:03:01] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2023-05-03 16:03:01,152 INFO werkzeug : 127.0.0.1 - - [03/May/2023 16:03:01] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
+2023-05-03 16:03:01,172 INFO werkzeug : 127.0.0.1 - - [03/May/2023 16:03:01] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+2023-05-03 16:03:12,021 DEBUG my_website : App object created of flask class.
+2023-05-03 16:03:12,064 INFO my_website : Object created of SQLAlchemy class.
+2023-05-03 16:03:18,785 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-03 16:03:19,002 DEBUG my_website : Running app now on port no 5000.
+2023-05-03 16:03:19,012 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-03 16:03:19,013 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-05-03 16:03:23,429 INFO werkzeug : 127.0.0.1 - - [03/May/2023 16:03:23] "GET / HTTP/1.1" 200 -
+2023-05-03 16:03:23,514 INFO werkzeug : 127.0.0.1 - - [03/May/2023 16:03:23] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2023-05-03 16:03:23,542 INFO werkzeug : 127.0.0.1 - - [03/May/2023 16:03:23] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+2023-05-03 16:03:23,556 INFO werkzeug : 127.0.0.1 - - [03/May/2023 16:03:23] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
+2023-05-03 16:05:10,660 DEBUG my_website : App object created of flask class.
+2023-05-03 16:05:10,711 INFO my_website : Object created of SQLAlchemy class.
+2023-05-03 16:05:17,396 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-03 16:05:17,615 DEBUG my_website : Running app now on port no 5000.
+2023-05-03 16:05:17,624 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-03 16:05:17,625 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-05-03 16:05:41,303 INFO werkzeug : 127.0.0.1 - - [03/May/2023 16:05:41] "GET / HTTP/1.1" 200 -
+2023-05-03 16:05:41,475 INFO werkzeug : 127.0.0.1 - - [03/May/2023 16:05:41] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+2023-05-03 16:05:41,532 INFO werkzeug : 127.0.0.1 - - [03/May/2023 16:05:41] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2023-05-03 16:05:41,557 INFO werkzeug : 127.0.0.1 - - [03/May/2023 16:05:41] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
+2023-05-03 16:06:57,990 DEBUG my_website : App object created of flask class.
+2023-05-03 16:06:58,034 INFO my_website : Object created of SQLAlchemy class.
+2023-05-03 16:07:25,388 DEBUG my_website : App object created of flask class.
+2023-05-03 16:07:25,431 INFO my_website : Object created of SQLAlchemy class.
+2023-05-03 16:07:32,379 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-03 16:07:32,603 DEBUG my_website : Running app now on port no 5000.
+2023-05-03 16:07:32,615 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-03 16:07:32,615 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-05-03 16:07:37,212 INFO werkzeug : 127.0.0.1 - - [03/May/2023 16:07:37] "GET / HTTP/1.1" 200 -
+2023-05-03 16:07:37,410 INFO werkzeug : 127.0.0.1 - - [03/May/2023 16:07:37] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+2023-05-03 16:07:37,468 INFO werkzeug : 127.0.0.1 - - [03/May/2023 16:07:37] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2023-05-03 16:07:37,492 INFO werkzeug : 127.0.0.1 - - [03/May/2023 16:07:37] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
+2023-05-03 16:10:20,292 DEBUG my_website : App object created of flask class.
+2023-05-03 16:10:20,336 INFO my_website : Object created of SQLAlchemy class.
+2023-05-03 16:10:26,923 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-03 16:10:27,141 DEBUG my_website : Running app now on port no 5000.
+2023-05-03 16:10:27,151 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-03 16:10:27,152 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-05-03 16:10:28,547 INFO werkzeug : 127.0.0.1 - - [03/May/2023 16:10:28] "GET / HTTP/1.1" 200 -
+2023-05-03 16:10:28,623 INFO werkzeug : 127.0.0.1 - - [03/May/2023 16:10:28] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2023-05-03 16:10:28,661 INFO werkzeug : 127.0.0.1 - - [03/May/2023 16:10:28] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+2023-05-03 16:10:28,670 INFO werkzeug : 127.0.0.1 - - [03/May/2023 16:10:28] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
+2023-05-04 12:15:54,459 DEBUG my_website : App object created of flask class.
+2023-05-04 12:15:54,527 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 12:16:02,875 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-04 12:16:03,104 DEBUG my_website : Running app now on port no 5000.
+2023-05-04 12:16:03,117 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-04 12:16:03,118 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-05-04 12:16:06,161 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:16:06] "GET / HTTP/1.1" 200 -
+2023-05-04 12:16:06,335 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:16:06] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+2023-05-04 12:16:06,404 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:16:06] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2023-05-04 12:16:06,476 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:16:06] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
+2023-05-04 12:18:07,339 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:18:07] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2023-05-04 12:18:07,352 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:18:07] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
+2023-05-04 12:18:46,646 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:18:46] "GET /5 HTTP/1.1" 200 -
+2023-05-04 12:18:46,715 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:18:46] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 12:18:47,031 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:18:47] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-04 12:18:47,038 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:18:47] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 12:19:02,828 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:19:02] "GET /login HTTP/1.1" 200 -
+2023-05-04 12:19:03,102 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:19:03] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-04 12:19:03,171 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:19:03] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 12:19:03,171 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:19:03] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 12:19:20,520 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:19:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-05-04 12:19:22,873 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:19:22] "GET /home HTTP/1.1" 200 -
+2023-05-04 12:19:22,900 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:19:22] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-04 12:19:23,212 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:19:23] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 12:19:23,213 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:19:23] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 12:20:15,383 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:20:15] "GET /delivery HTTP/1.1" 200 -
+2023-05-04 12:20:15,407 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:20:15] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-04 12:20:15,708 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:20:15] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 12:20:15,739 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:20:15] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 12:22:05,797 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:22:05] "[32mPOST /user/delivery HTTP/1.1[0m" 302 -
+2023-05-04 12:22:08,552 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:22:08] "GET /delivery HTTP/1.1" 200 -
+2023-05-04 12:22:08,887 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:22:08] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-04 12:22:08,888 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:22:08] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 12:22:08,892 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:22:08] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 12:22:17,685 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:22:17] "[32mPOST /user/delivery HTTP/1.1[0m" 302 -
+2023-05-04 12:22:20,642 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:22:20] "GET /delivery HTTP/1.1" 200 -
+2023-05-04 12:22:20,660 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:22:20] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-04 12:22:20,970 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:22:20] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 12:22:21,033 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:22:21] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 12:22:31,368 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:22:31] "[32mPOST /user/delivery HTTP/1.1[0m" 302 -
+2023-05-04 12:22:33,975 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:22:33] "GET /delivery HTTP/1.1" 200 -
+2023-05-04 12:22:34,310 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:22:34] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-04 12:22:34,311 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:22:34] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 12:22:34,316 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:22:34] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 12:22:47,082 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:22:47] "[32mPOST /user/delivery HTTP/1.1[0m" 302 -
+2023-05-04 12:22:49,751 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:22:49] "GET /delivery HTTP/1.1" 200 -
+2023-05-04 12:22:50,091 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:22:50] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-04 12:22:50,094 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:22:50] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 12:22:50,098 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:22:50] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 12:22:58,394 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:22:58] "[32mPOST /user/delivery HTTP/1.1[0m" 302 -
+2023-05-04 12:23:01,367 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:23:01] "GET /delivery HTTP/1.1" 200 -
+2023-05-04 12:23:01,383 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:23:01] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-04 12:23:01,689 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:23:01] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 12:23:01,693 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:23:01] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 12:23:13,821 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:23:13] "[32mPOST /user/delivery HTTP/1.1[0m" 302 -
+2023-05-04 12:23:16,419 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:23:16] "GET /delivery HTTP/1.1" 200 -
+2023-05-04 12:23:16,750 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:23:16] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-04 12:23:16,750 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:23:16] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 12:23:16,756 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:23:16] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 12:23:29,149 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:23:29] "[32mPOST /user/delivery HTTP/1.1[0m" 302 -
+2023-05-04 12:23:32,215 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:23:32] "GET /delivery HTTP/1.1" 200 -
+2023-05-04 12:23:32,243 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:23:32] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-04 12:23:32,546 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:23:32] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 12:23:32,578 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:23:32] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 12:23:41,689 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:23:41] "GET /seller HTTP/1.1" 200 -
+2023-05-04 12:23:41,709 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:23:41] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-04 12:23:42,026 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:23:42] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 12:23:42,027 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:23:42] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 12:25:26,223 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:25:26] "[32mPOST /user/seller HTTP/1.1[0m" 302 -
+2023-05-04 12:25:28,955 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:25:28] "GET /seller HTTP/1.1" 200 -
+2023-05-04 12:25:29,291 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:25:29] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-04 12:25:29,292 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:25:29] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 12:25:29,298 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:25:29] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 12:29:12,099 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:29:12] "POST /pie_loader HTTP/1.1" 200 -
+2023-05-04 12:29:12,122 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:29:12] "[36mGET /static/css/admin/admin_style.css HTTP/1.1[0m" 304 -
+2023-05-04 12:29:12,430 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:29:12] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 12:29:12,445 INFO werkzeug : 127.0.0.1 - - [04/May/2023 12:29:12] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 13:14:54,399 DEBUG my_website : App object created of flask class.
+2023-05-04 13:14:54,465 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 13:14:58,016 INFO my_website : Provided lsit of mail to once_a_dat file.
+2023-05-04 13:15:12,178 DEBUG my_website : App object created of flask class.
+2023-05-04 13:15:12,222 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 13:15:15,206 INFO my_website : Provided lsit of mail to once_a_dat file.
+2023-05-04 13:15:30,123 DEBUG my_website : App object created of flask class.
+2023-05-04 13:15:30,166 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 13:15:33,589 INFO my_website : Provided lsit of mail to once_a_dat file.
+2023-05-04 13:24:11,509 DEBUG my_website : App object created of flask class.
+2023-05-04 13:24:11,563 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 13:25:16,474 DEBUG my_website : App object created of flask class.
+2023-05-04 13:25:16,521 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 13:25:19,505 INFO my_website : Provided lsit of mail to once_a_dat file.
+2023-05-04 13:54:17,103 DEBUG my_website : App object created of flask class.
+2023-05-04 13:54:17,171 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 13:54:21,329 INFO my_website : Provided lsit of mail to once_a_dat file.
+2023-05-04 13:54:21,448 ERROR my_website : Error [Errno 11001] getaddrinfo failed orrcur while Sending mail to the customers.
+2023-05-04 14:02:58,958 DEBUG my_website : App object created of flask class.
+2023-05-04 14:02:59,061 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 14:03:03,615 INFO my_website : Provided lsit of mail to once_a_dat file.
+2023-05-04 14:03:03,655 ERROR my_website : Error [Errno 11001] getaddrinfo failed orrcur while Sending mail to the customers.
+2023-05-04 14:05:30,009 DEBUG my_website : App object created of flask class.
+2023-05-04 14:05:30,056 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 14:05:32,949 INFO my_website : Provided lsit of mail to once_a_dat file.
+2023-05-04 14:05:36,208 ERROR my_website : Error (334, b'UGFzc3dvcmQ6') orrcur while Sending mail to the customers.
+2023-05-04 14:07:36,525 DEBUG my_website : App object created of flask class.
+2023-05-04 14:07:36,568 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 14:07:39,789 INFO my_website : Provided lsit of mail to once_a_dat file.
+2023-05-04 14:07:43,601 ERROR my_website : Error (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials f10-20020a17090274ca00b001aadd0d7364sm8930828plt.83 - gsmtp') orrcur while Sending mail to the customers.
+2023-05-04 14:11:34,958 DEBUG my_website : App object created of flask class.
+2023-05-04 14:11:35,004 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 15:45:47,795 DEBUG my_website : App object created of flask class.
+2023-05-04 15:45:47,895 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 15:45:53,040 INFO my_website : Provided lsit of mail to once_a_dat file.
+2023-05-04 15:45:56,844 ERROR my_website : Error (534, b'5.7.9 Application-specific password required. Learn more at\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor w12-20020a170902d3cc00b001ab18eaf90esm3272681plb.158 - gsmtp') orrcur while Sending mail to the customers.
+2023-05-04 15:47:34,850 DEBUG my_website : App object created of flask class.
+2023-05-04 15:47:34,897 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 15:47:37,756 INFO my_website : Provided lsit of mail to once_a_dat file.
+2023-05-04 15:48:25,856 DEBUG my_website : App object created of flask class.
+2023-05-04 15:48:25,946 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 15:49:03,467 INFO my_website : Provided lsit of mail to once_a_dat file.
+2023-05-04 15:49:26,013 DEBUG my_website : App object created of flask class.
+2023-05-04 15:49:26,054 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 15:49:30,152 INFO my_website : Provided lsit of mail to once_a_dat file.
+2023-05-04 15:49:34,741 INFO my_website : All mail Send Sucessfully.
+2023-05-04 15:52:34,985 DEBUG my_website : App object created of flask class.
+2023-05-04 15:52:35,032 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 15:52:38,324 INFO my_website : Provided lsit of mail to once_a_dat file.
+2023-05-04 15:52:42,887 INFO my_website : All mail Send Sucessfully.

@@ -1,6 +1,19 @@
 from my_website import app
 from flask import render_template,request,send_file
 from service import Customer_class
+from data_base import db,Order_details
+
+@app.route('/',methods = ["GET"])
+def home():
+    with app.app_context():
+        order_query = db.session.query(Order_details.order_id).filter(Order_details.delivery_status == 'Pending' ).all()
+    all_pending_order = []
+    for row in order_query:
+        all_pending_order.append(f"https://customer-feedback-dashboard.onrender.com/{row[0]}")
+    testing_data = {"Give review":all_pending_order,
+                    "login_url":"https://customer-feedback-dashboard.onrender.com/login",
+                    "Login credentials":"user_email : akarshitgupta29@gmail.com password : akarshitg9"}
+    return testing_data
 
 @app.route('/<int:order_id>',methods=["GET","POST"])
 def feedback(order_id):
@@ -29,57 +42,6 @@ def feedback(order_id):
         return render_template('/customer/feedback.html',render_message = helper.get_message(),
                                                          visible = helper.get_show())
 
-
-    
-# @app.route("/",methods = ["GET","POST"])
-def Upload():
-    if request.method == 'POST':
-        pic = request.files['image']
-        if not pic:
-            return "no_pic uploaded",400
-        from data_base import Review
-        from PIL import Image
-        import io
-        mimetype = pic.mimetype #check mimetype to verify its img image/jpeg
-        # pic.seek(0)
-        image = Image.open(io.BytesIO(pic.read()))
-        max_width = 800#resize the image
-        max_height = 600
-        width,height = image.size
-        if width > max_width or height > max_height:
-            ratio = min(max_width/width,max_height/height)
-            new_size = (int(ratio*width),int(ratio*height))
-            image = image.resize(new_size)
-        #convert image to bytes
-        buffer = io.BytesIO()
-        image.save(buffer,format=f'{mimetype[6:]}') #mimetype = image/jpeg
-        pic = buffer.getvalue()
-
-        entry = Review(order_id=1041,seller_review="99",deliver_review=3,comment="good",
-                       image = pic,img_type = mimetype,comment_type=1)
-        entry.add_row()
-        return mimetype
-
-    else:
-        return render_template('/index.html'),400
-    
-#funtion for getting image using order_id
-# @app.route("/get/<int:id>")
-def get_img(id):
-    from data_base import Review
-    with app.app_context():
-        img = Review.query.filter_by(order_id = id).first()
-    if not img:
-        return 'no img with this id',404
-    else:
-        from io import BytesIO
-        
-        image_data = BytesIO(img.image)
-        content_type = img.img_type
-        return send_file(image_data, mimetype=content_type)
-# @app.route("/check")
-def check():
-    return render_template('index2.html')
 
 @app.route('/order_detail/post',methods = ['POST'])
 def handle_order():
