@@ -12987,3 +12987,33 @@
 2023-05-04 15:52:35,032 INFO my_website : Object created of SQLAlchemy class.
 2023-05-04 15:52:38,324 INFO my_website : Provided lsit of mail to once_a_dat file.
 2023-05-04 15:52:42,887 INFO my_website : All mail Send Sucessfully.
+2023-05-04 16:32:12,993 DEBUG my_website : App object created of flask class.
+2023-05-04 16:32:13,206 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 18:53:01,231 DEBUG my_website : App object created of flask class.
+2023-05-04 18:53:01,449 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 18:53:20,380 DEBUG my_website : App object created of flask class.
+2023-05-04 18:53:20,557 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 18:53:27,904 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-04 18:53:28,091 DEBUG my_website : Running app now on port no 5000.
+2023-05-04 18:53:58,334 DEBUG my_website : App object created of flask class.
+2023-05-04 18:53:58,511 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 18:54:16,164 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-04 18:54:16,300 DEBUG my_website : Running app now on port no 5000.
+2023-05-04 18:54:16,460 INFO apscheduler.scheduler : Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-05-04 18:54:16,506 INFO apscheduler.scheduler : Added job "job1" to job store "default"
+2023-05-04 18:54:16,509 INFO apscheduler.scheduler : Scheduler started
+2023-05-04 18:54:16,513 DEBUG apscheduler.scheduler : Looking for jobs to run
+2023-05-04 18:54:16,515 DEBUG apscheduler.scheduler : Next wakeup is due at 2023-05-04 18:55:00+05:30 (in 43.484410 seconds)
+2023-05-04 18:54:16,561 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-04 18:54:16,564 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-05-04 18:54:29,059 INFO werkzeug : 127.0.0.1 - - [04/May/2023 18:54:29] "GET / HTTP/1.1" 200 -
+2023-05-04 18:54:29,815 INFO werkzeug : 127.0.0.1 - - [04/May/2023 18:54:29] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+2023-05-04 18:54:30,090 INFO werkzeug : 127.0.0.1 - - [04/May/2023 18:54:30] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2023-05-04 18:54:30,186 INFO werkzeug : 127.0.0.1 - - [04/May/2023 18:54:30] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
+2023-05-04 18:55:00,015 DEBUG apscheduler.scheduler : Looking for jobs to run
+2023-05-04 18:55:00,021 INFO apscheduler.executors.default : Running job "job1 (trigger: cron[hour='18', minute='55'], next run at: 2023-05-05 18:55:00 IST)" (scheduled at 2023-05-04 18:55:00+05:30)
+2023-05-04 18:55:00,025 DEBUG apscheduler.scheduler : Next wakeup is due at 2023-05-05 18:55:00+05:30 (in 86399.980760 seconds)
+2023-05-04 18:55:00,947 INFO my_website : Provided lsit of mail to once_a_dat file.
+2023-05-04 18:55:07,377 INFO my_website : All mail Send Sucessfully.
+2023-05-04 18:55:07,379 INFO apscheduler.executors.default : Job "job1 (trigger: cron[hour='18', minute='55'], next run at: 2023-05-05 18:55:00 IST)" executed successfully
