@@ -13017,3 +13017,339 @@
 2023-05-04 18:55:00,947 INFO my_website : Provided lsit of mail to once_a_dat file.
 2023-05-04 18:55:07,377 INFO my_website : All mail Send Sucessfully.
 2023-05-04 18:55:07,379 INFO apscheduler.executors.default : Job "job1 (trigger: cron[hour='18', minute='55'], next run at: 2023-05-05 18:55:00 IST)" executed successfully
+2023-05-04 20:11:23,781 DEBUG my_website : App object created of flask class.
+2023-05-04 20:11:24,037 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 20:12:10,642 DEBUG my_website : App object created of flask class.
+2023-05-04 20:12:10,795 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 20:14:30,234 DEBUG my_website : App object created of flask class.
+2023-05-04 20:14:30,541 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 20:14:42,087 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-04 20:14:42,669 DEBUG my_website : Running app now on port no 5000.
+2023-05-04 20:14:42,921 INFO apscheduler.scheduler : Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-05-04 20:14:42,966 INFO apscheduler.scheduler : Added job "job1" to job store "default"
+2023-05-04 20:14:42,967 INFO apscheduler.scheduler : Scheduler started
+2023-05-04 20:14:42,971 DEBUG apscheduler.scheduler : Looking for jobs to run
+2023-05-04 20:14:42,973 DEBUG apscheduler.scheduler : Next wakeup is due at 2023-05-05 06:05:00+05:30 (in 35417.027827 seconds)
+2023-05-04 20:14:43,005 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-04 20:14:43,007 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-05-04 20:14:49,805 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:14:49] "GET / HTTP/1.1" 200 -
+2023-05-04 20:14:50,485 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:14:50] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+2023-05-04 20:14:50,744 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:14:50] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2023-05-04 20:14:50,863 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:14:50] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
+2023-05-04 20:29:14,364 DEBUG my_website : App object created of flask class.
+2023-05-04 20:29:14,577 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 20:29:26,356 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-04 20:29:26,547 DEBUG my_website : Running app now on port no 5000.
+2023-05-04 20:29:26,715 INFO apscheduler.scheduler : Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-05-04 20:29:26,747 INFO apscheduler.scheduler : Added job "job1" to job store "default"
+2023-05-04 20:29:26,748 INFO apscheduler.scheduler : Scheduler started
+2023-05-04 20:29:26,751 DEBUG apscheduler.scheduler : Looking for jobs to run
+2023-05-04 20:29:26,753 DEBUG apscheduler.scheduler : Next wakeup is due at 2023-05-05 06:05:00+05:30 (in 34533.246517 seconds)
+2023-05-04 20:29:26,779 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-04 20:29:26,782 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-05-04 20:29:34,207 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:29:34] "GET / HTTP/1.1" 200 -
+2023-05-04 20:29:36,581 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:29:36] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+2023-05-04 20:29:36,901 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:29:36] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2023-05-04 20:29:37,088 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:29:37] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
+2023-05-04 20:29:38,410 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:29:38] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+2023-05-04 20:29:39,388 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:29:39] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2023-05-04 20:29:39,435 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:29:39] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
+2023-05-04 20:29:55,300 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:29:55] "GET / HTTP/1.1" 200 -
+2023-05-04 20:29:55,736 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:29:55] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+2023-05-04 20:29:55,946 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:29:55] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2023-05-04 20:29:55,974 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:29:55] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
+2023-05-04 20:30:02,334 ERROR my_website : Error Extra data: line 1 column 7 (char 6) occur, while converting String to JSON in services.
+2023-05-04 20:30:02,553 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:30:02] "GET /7 HTTP/1.1" 200 -
+2023-05-04 20:30:02,652 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:30:02] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 20:30:02,676 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:30:02] "GET /static/css/customer/feedback_style.css HTTP/1.1" 200 -
+2023-05-04 20:30:02,735 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:30:02] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 20:30:58,116 DEBUG my_website : App object created of flask class.
+2023-05-04 20:30:58,266 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 20:31:05,271 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-04 20:31:05,440 DEBUG my_website : Running app now on port no 5000.
+2023-05-04 20:31:05,607 INFO apscheduler.scheduler : Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-05-04 20:31:05,614 INFO apscheduler.scheduler : Added job "job1" to job store "default"
+2023-05-04 20:31:05,615 INFO apscheduler.scheduler : Scheduler started
+2023-05-04 20:31:05,617 DEBUG apscheduler.scheduler : Looking for jobs to run
+2023-05-04 20:31:05,619 DEBUG apscheduler.scheduler : Next wakeup is due at 2023-05-05 06:05:00+05:30 (in 34434.380940 seconds)
+2023-05-04 20:31:05,676 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-04 20:31:05,681 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-05-04 20:31:05,689 INFO werkzeug :  * Restarting with stat
+2023-05-04 20:31:08,194 DEBUG my_website : App object created of flask class.
+2023-05-04 20:31:08,358 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 20:31:15,921 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-04 20:31:16,106 DEBUG my_website : Running app now on port no 5000.
+2023-05-04 20:31:16,388 INFO apscheduler.scheduler : Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-05-04 20:31:16,398 INFO apscheduler.scheduler : Added job "job1" to job store "default"
+2023-05-04 20:31:16,399 INFO apscheduler.scheduler : Scheduler started
+2023-05-04 20:31:16,402 DEBUG apscheduler.scheduler : Looking for jobs to run
+2023-05-04 20:31:16,404 DEBUG apscheduler.scheduler : Next wakeup is due at 2023-05-05 06:05:00+05:30 (in 34423.595879 seconds)
+2023-05-04 20:31:16,436 WARNING werkzeug :  * Debugger is active!
+2023-05-04 20:31:16,465 INFO werkzeug :  * Debugger PIN: 540-118-052
+2023-05-04 20:37:51,910 INFO werkzeug :  * Detected change in 'c:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\service.py', reloading
+2023-05-04 20:37:52,291 INFO werkzeug :  * Restarting with stat
+2023-05-04 20:37:55,142 DEBUG my_website : App object created of flask class.
+2023-05-04 20:37:55,323 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 20:38:02,426 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-04 20:38:02,565 DEBUG my_website : Running app now on port no 5000.
+2023-05-04 20:38:02,748 INFO apscheduler.scheduler : Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-05-04 20:38:02,759 INFO apscheduler.scheduler : Added job "job1" to job store "default"
+2023-05-04 20:38:02,761 INFO apscheduler.scheduler : Scheduler started
+2023-05-04 20:38:02,764 DEBUG apscheduler.scheduler : Looking for jobs to run
+2023-05-04 20:38:02,765 DEBUG apscheduler.scheduler : Next wakeup is due at 2023-05-05 06:05:00+05:30 (in 34017.234606 seconds)
+2023-05-04 20:38:02,799 WARNING werkzeug :  * Debugger is active!
+2023-05-04 20:38:02,830 INFO werkzeug :  * Debugger PIN: 540-118-052
+2023-05-04 20:38:05,402 ERROR my_website : Error Extra data: line 1 column 7 (char 6) occur, while converting String to JSON in services.
+2023-05-04 20:38:05,490 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:38:05] "GET /7 HTTP/1.1" 200 -
+2023-05-04 20:38:05,574 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:38:05] "GET /static/css/customer/feedback_style.css HTTP/1.1" 200 -
+2023-05-04 20:38:05,577 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:38:05] "GET /static/img/icons/fynd_l.jpg HTTP/1.1" 200 -
+2023-05-04 20:38:05,785 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:38:05] "GET /static/img/icons/Fynd_Logo.png HTTP/1.1" 200 -
+2023-05-04 20:38:06,188 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:38:06] "GET /static/img/icons/favicon.ico HTTP/1.1" 200 -
+2023-05-04 20:38:58,904 INFO werkzeug :  * Detected change in 'c:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\service.py', reloading
+2023-05-04 20:38:59,237 INFO werkzeug :  * Restarting with stat
+2023-05-04 20:39:01,871 DEBUG my_website : App object created of flask class.
+2023-05-04 20:39:02,026 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 20:39:08,993 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-04 20:39:09,163 DEBUG my_website : Running app now on port no 5000.
+2023-05-04 20:39:09,345 INFO apscheduler.scheduler : Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-05-04 20:39:09,355 INFO apscheduler.scheduler : Added job "job1" to job store "default"
+2023-05-04 20:39:09,356 INFO apscheduler.scheduler : Scheduler started
+2023-05-04 20:39:09,359 DEBUG apscheduler.scheduler : Looking for jobs to run
+2023-05-04 20:39:09,361 DEBUG apscheduler.scheduler : Next wakeup is due at 2023-05-05 06:05:00+05:30 (in 33950.638412 seconds)
+2023-05-04 20:39:09,393 WARNING werkzeug :  * Debugger is active!
+2023-05-04 20:39:09,420 INFO werkzeug :  * Debugger PIN: 540-118-052
+2023-05-04 20:39:12,052 ERROR my_website : Error Extra data: line 1 column 7 (char 6) occur, while converting String to JSON in services.
+2023-05-04 20:39:12,139 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:39:12] "GET /7 HTTP/1.1" 200 -
+2023-05-04 20:39:12,210 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:39:12] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-04 20:39:12,212 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:39:12] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 20:39:12,280 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:39:12] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 20:39:12,415 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:39:12] "[36mGET /static/img/icons/favicon.ico HTTP/1.1[0m" 304 -
+2023-05-04 20:41:59,511 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:41:59] "[35m[1mGET /7 HTTP/1.1[0m" 500 -
+2023-05-04 20:41:59,630 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:41:59] "GET /7?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-05-04 20:41:59,670 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:41:59] "GET /7?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-05-04 20:41:59,875 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:41:59] "GET /7?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-05-04 20:41:59,934 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:41:59] "[36mGET /7?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-04 20:42:36,151 ERROR my_website : Error Expecting property name enclosed in double quotes: line 1 column 3 (char 2) occur, while converting String to JSON in services.
+2023-05-04 20:42:36,170 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:42:36] "GET /8 HTTP/1.1" 200 -
+2023-05-04 20:42:36,248 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:42:36] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-04 20:42:36,252 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:42:36] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 20:42:36,321 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:42:36] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 20:42:36,513 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:42:36] "[36mGET /static/img/icons/favicon.ico HTTP/1.1[0m" 304 -
+2023-05-04 20:49:28,237 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:49:28] "GET /8 HTTP/1.1" 200 -
+2023-05-04 20:49:28,318 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:49:28] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-04 20:49:28,322 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:49:28] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 20:49:28,403 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:49:28] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 20:49:28,559 INFO werkzeug : 127.0.0.1 - - [04/May/2023 20:49:28] "[36mGET /static/img/icons/favicon.ico HTTP/1.1[0m" 304 -
+2023-05-04 21:05:13,401 INFO werkzeug :  * Detected change in 'c:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\service.py', reloading
+2023-05-04 21:05:13,791 INFO werkzeug :  * Restarting with stat
+2023-05-04 21:05:16,333 DEBUG my_website : App object created of flask class.
+2023-05-04 21:05:16,512 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 21:05:24,265 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-04 21:05:24,443 DEBUG my_website : Running app now on port no 5000.
+2023-05-04 21:05:24,624 INFO apscheduler.scheduler : Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-05-04 21:05:24,633 INFO apscheduler.scheduler : Added job "job1" to job store "default"
+2023-05-04 21:05:24,634 INFO apscheduler.scheduler : Scheduler started
+2023-05-04 21:05:24,638 DEBUG apscheduler.scheduler : Looking for jobs to run
+2023-05-04 21:05:24,639 DEBUG apscheduler.scheduler : Next wakeup is due at 2023-05-05 06:05:00+05:30 (in 32375.360760 seconds)
+2023-05-04 21:05:24,666 WARNING werkzeug :  * Debugger is active!
+2023-05-04 21:05:24,692 INFO werkzeug :  * Debugger PIN: 540-118-052
+2023-05-04 21:05:34,827 INFO werkzeug :  * Detected change in 'c:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-04 21:05:35,246 INFO werkzeug :  * Restarting with stat
+2023-05-04 21:05:37,824 DEBUG my_website : App object created of flask class.
+2023-05-04 21:05:37,996 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 21:05:46,833 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-04 21:05:46,951 DEBUG my_website : Running app now on port no 5000.
+2023-05-04 21:05:47,131 INFO apscheduler.scheduler : Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-05-04 21:05:47,141 INFO apscheduler.scheduler : Added job "job1" to job store "default"
+2023-05-04 21:05:47,142 INFO apscheduler.scheduler : Scheduler started
+2023-05-04 21:05:47,146 DEBUG apscheduler.scheduler : Looking for jobs to run
+2023-05-04 21:05:47,147 DEBUG apscheduler.scheduler : Next wakeup is due at 2023-05-05 06:05:00+05:30 (in 32352.852887 seconds)
+2023-05-04 21:05:47,180 WARNING werkzeug :  * Debugger is active!
+2023-05-04 21:05:47,212 INFO werkzeug :  * Debugger PIN: 540-118-052
+2023-05-04 21:05:48,968 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:05:48] "GET /7 HTTP/1.1" 200 -
+2023-05-04 21:05:49,047 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:05:49] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-04 21:05:49,055 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:05:49] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 21:05:49,140 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:05:49] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 21:05:49,345 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:05:49] "[36mGET /static/img/icons/favicon.ico HTTP/1.1[0m" 304 -
+2023-05-04 21:06:02,933 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:06:02] "GET /5 HTTP/1.1" 200 -
+2023-05-04 21:06:03,022 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:06:03] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-04 21:06:03,026 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:06:03] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 21:06:03,030 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:06:03] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 21:06:54,598 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:06:54] "GET /5 HTTP/1.1" 200 -
+2023-05-04 21:06:54,658 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:06:54] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-04 21:06:54,661 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:06:54] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 21:06:54,726 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:06:54] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 21:06:54,835 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:06:54] "[36mGET /static/img/icons/favicon.ico HTTP/1.1[0m" 304 -
+2023-05-04 21:07:34,096 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:07:34] "GET /5 HTTP/1.1" 200 -
+2023-05-04 21:07:34,156 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:07:34] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-04 21:07:34,161 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:07:34] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 21:07:34,219 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:07:34] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 21:07:34,366 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:07:34] "[36mGET /static/img/icons/favicon.ico HTTP/1.1[0m" 304 -
+2023-05-04 21:08:03,709 INFO werkzeug :  * Detected change in 'c:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\service.py', reloading
+2023-05-04 21:08:04,031 INFO werkzeug :  * Restarting with stat
+2023-05-04 21:08:06,307 DEBUG my_website : App object created of flask class.
+2023-05-04 21:08:06,458 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 21:08:15,043 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-04 21:08:15,222 DEBUG my_website : Running app now on port no 5000.
+2023-05-04 21:08:15,414 INFO apscheduler.scheduler : Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-05-04 21:08:15,424 INFO apscheduler.scheduler : Added job "job1" to job store "default"
+2023-05-04 21:08:15,425 INFO apscheduler.scheduler : Scheduler started
+2023-05-04 21:08:15,429 DEBUG apscheduler.scheduler : Looking for jobs to run
+2023-05-04 21:08:15,430 DEBUG apscheduler.scheduler : Next wakeup is due at 2023-05-05 06:05:00+05:30 (in 32204.569027 seconds)
+2023-05-04 21:08:15,462 WARNING werkzeug :  * Debugger is active!
+2023-05-04 21:08:15,496 INFO werkzeug :  * Debugger PIN: 540-118-052
+2023-05-04 21:08:17,262 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:08:17] "GET /5 HTTP/1.1" 200 -
+2023-05-04 21:08:17,340 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:08:17] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-04 21:08:17,345 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:08:17] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 21:08:17,418 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:08:17] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 21:08:17,551 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:08:17] "[36mGET /static/img/icons/favicon.ico HTTP/1.1[0m" 304 -
+2023-05-04 21:08:25,618 INFO werkzeug :  * Detected change in 'c:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\service.py', reloading
+2023-05-04 21:08:26,042 INFO werkzeug :  * Restarting with stat
+2023-05-04 21:08:28,612 DEBUG my_website : App object created of flask class.
+2023-05-04 21:08:28,784 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 21:08:37,073 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-04 21:08:37,205 DEBUG my_website : Running app now on port no 5000.
+2023-05-04 21:08:37,375 INFO apscheduler.scheduler : Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-05-04 21:08:37,385 INFO apscheduler.scheduler : Added job "job1" to job store "default"
+2023-05-04 21:08:37,386 INFO apscheduler.scheduler : Scheduler started
+2023-05-04 21:08:37,389 DEBUG apscheduler.scheduler : Looking for jobs to run
+2023-05-04 21:08:37,391 DEBUG apscheduler.scheduler : Next wakeup is due at 2023-05-05 06:05:00+05:30 (in 32182.608291 seconds)
+2023-05-04 21:08:37,423 WARNING werkzeug :  * Debugger is active!
+2023-05-04 21:08:37,449 INFO werkzeug :  * Debugger PIN: 540-118-052
+2023-05-04 21:08:40,494 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:08:40] "GET /5 HTTP/1.1" 200 -
+2023-05-04 21:08:40,563 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:08:40] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-04 21:08:40,567 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:08:40] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 21:08:40,640 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:08:40] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 21:08:40,825 INFO werkzeug : 127.0.0.1 - - [04/May/2023 21:08:40] "[36mGET /static/img/icons/favicon.ico HTTP/1.1[0m" 304 -
+2023-05-04 22:16:11,124 INFO my_website : Cant process GET request came for changing delivery state in Order table.
+2023-05-04 22:16:11,126 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:16:11] "[31m[1mGET /5/Pass HTTP/1.1[0m" 400 -
+2023-05-04 22:16:11,734 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:16:11] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+2023-05-04 22:16:11,811 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:16:11] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2023-05-04 22:16:11,891 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:16:11] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
+2023-05-04 22:17:11,890 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:17:11] "[31m[1mGET /5/pass HTTP/1.1[0m" 400 -
+2023-05-04 22:17:12,216 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:17:12] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+2023-05-04 22:17:12,287 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:17:12] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2023-05-04 22:17:12,327 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:17:12] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
+2023-05-04 22:17:22,007 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:17:22] "GET /5/Pass HTTP/1.1" 200 -
+2023-05-04 22:17:22,250 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:17:22] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2023-05-04 22:17:22,278 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:17:22] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
+2023-05-04 22:17:22,341 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:17:22] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+2023-05-04 22:18:12,021 INFO werkzeug :  * Detected change in 'c:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-04 22:18:12,375 INFO werkzeug :  * Restarting with stat
+2023-05-04 22:18:15,090 DEBUG my_website : App object created of flask class.
+2023-05-04 22:18:15,268 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 22:18:23,935 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-04 22:18:24,100 DEBUG my_website : Running app now on port no 5000.
+2023-05-04 22:18:24,283 INFO apscheduler.scheduler : Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-05-04 22:18:24,292 INFO apscheduler.scheduler : Added job "job1" to job store "default"
+2023-05-04 22:18:24,293 INFO apscheduler.scheduler : Scheduler started
+2023-05-04 22:18:24,297 DEBUG apscheduler.scheduler : Looking for jobs to run
+2023-05-04 22:18:24,298 DEBUG apscheduler.scheduler : Next wakeup is due at 2023-05-05 06:05:00+05:30 (in 27995.701365 seconds)
+2023-05-04 22:18:24,348 WARNING werkzeug :  * Debugger is active!
+2023-05-04 22:18:24,375 INFO werkzeug :  * Debugger PIN: 540-118-052
+2023-05-04 22:18:25,381 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:18:25] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2023-05-04 22:18:25,387 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:18:25] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+2023-05-04 22:18:25,449 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:18:25] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
+2023-05-04 22:18:27,273 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:18:27] "GET /5 HTTP/1.1" 200 -
+2023-05-04 22:18:27,340 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:18:27] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-04 22:18:27,342 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:18:27] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 22:18:27,406 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:18:27] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 22:19:08,636 INFO my_website : Review Sucessfully added to the Databse.
+2023-05-04 22:19:08,639 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:19:08] "POST /5 HTTP/1.1" 200 -
+2023-05-04 22:19:08,740 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:19:08] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-04 22:19:08,745 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:19:08] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 22:19:08,776 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:19:08] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 22:19:26,910 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:19:26] "GET /8/Pass HTTP/1.1" 200 -
+2023-05-04 22:19:27,143 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:19:27] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2023-05-04 22:19:27,178 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:19:27] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
+2023-05-04 22:19:27,240 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:19:27] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+2023-05-04 22:19:47,662 INFO werkzeug :  * Detected change in 'c:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-04 22:19:48,004 INFO werkzeug :  * Restarting with stat
+2023-05-04 22:19:50,594 DEBUG my_website : App object created of flask class.
+2023-05-04 22:19:50,757 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 22:19:58,127 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-04 22:19:58,334 DEBUG my_website : Running app now on port no 5000.
+2023-05-04 22:19:58,496 INFO apscheduler.scheduler : Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-05-04 22:19:58,507 INFO apscheduler.scheduler : Added job "job1" to job store "default"
+2023-05-04 22:19:58,508 INFO apscheduler.scheduler : Scheduler started
+2023-05-04 22:19:58,511 DEBUG apscheduler.scheduler : Looking for jobs to run
+2023-05-04 22:19:58,514 DEBUG apscheduler.scheduler : Next wakeup is due at 2023-05-05 06:05:00+05:30 (in 27901.485266 seconds)
+2023-05-04 22:19:58,543 WARNING werkzeug :  * Debugger is active!
+2023-05-04 22:19:58,569 INFO werkzeug :  * Debugger PIN: 540-118-052
+2023-05-04 22:20:00,974 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:20:00] "GET /8 HTTP/1.1" 200 -
+2023-05-04 22:20:01,066 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:20:01] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-04 22:20:01,078 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:20:01] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 22:20:01,113 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:20:01] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 22:20:22,625 INFO my_website : Review Sucessfully added to the Databse.
+2023-05-04 22:20:22,629 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:20:22] "POST /8 HTTP/1.1" 200 -
+2023-05-04 22:20:22,697 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:20:22] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-04 22:20:22,699 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:20:22] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 22:20:22,768 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:20:22] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 22:20:37,196 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:20:37] "GET /11/Pass HTTP/1.1" 200 -
+2023-05-04 22:20:37,474 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:20:37] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2023-05-04 22:20:37,685 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:20:37] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+2023-05-04 22:20:37,724 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:20:37] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
+2023-05-04 22:21:08,907 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:21:08] "GET /11 HTTP/1.1" 200 -
+2023-05-04 22:21:09,010 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:21:09] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-04 22:21:09,014 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:21:09] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 22:21:09,145 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:21:09] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 22:25:43,164 INFO my_website : Review Sucessfully added to the Databse.
+2023-05-04 22:25:43,168 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:25:43] "POST /11 HTTP/1.1" 200 -
+2023-05-04 22:25:43,257 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:25:43] "[36mGET /static/css/customer/feedback_style.css HTTP/1.1[0m" 304 -
+2023-05-04 22:25:43,269 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:25:43] "[36mGET /static/img/icons/fynd_l.jpg HTTP/1.1[0m" 304 -
+2023-05-04 22:25:43,308 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:25:43] "[36mGET /static/img/icons/Fynd_Logo.png HTTP/1.1[0m" 304 -
+2023-05-04 22:25:48,941 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:25:48] "[31m[1mGET /11/asd HTTP/1.1[0m" 400 -
+2023-05-04 22:25:49,394 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:25:49] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+2023-05-04 22:25:49,526 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:25:49] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2023-05-04 22:25:49,575 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:25:49] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
+2023-05-04 22:28:19,486 INFO werkzeug :  * Detected change in 'c:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-04 22:28:19,870 INFO werkzeug :  * Restarting with stat
+2023-05-04 22:28:22,388 DEBUG my_website : App object created of flask class.
+2023-05-04 22:28:22,543 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 22:28:30,012 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-04 22:28:30,144 DEBUG my_website : Running app now on port no 5000.
+2023-05-04 22:28:30,383 INFO apscheduler.scheduler : Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-05-04 22:28:30,398 INFO apscheduler.scheduler : Added job "job1" to job store "default"
+2023-05-04 22:28:30,400 INFO apscheduler.scheduler : Scheduler started
+2023-05-04 22:28:30,405 DEBUG apscheduler.scheduler : Looking for jobs to run
+2023-05-04 22:28:30,410 DEBUG apscheduler.scheduler : Next wakeup is due at 2023-05-05 06:05:00+05:30 (in 27389.589257 seconds)
+2023-05-04 22:28:30,448 WARNING werkzeug :  * Debugger is active!
+2023-05-04 22:28:30,484 INFO werkzeug :  * Debugger PIN: 540-118-052
+2023-05-04 22:28:41,641 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:28:41] "GET / HTTP/1.1" 200 -
+2023-05-04 22:28:41,950 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:28:41] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+2023-05-04 22:28:42,063 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:28:42] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2023-05-04 22:28:42,127 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:28:42] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
+2023-05-04 22:29:14,796 INFO werkzeug :  * Detected change in 'c:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-04 22:29:15,126 INFO werkzeug :  * Restarting with stat
+2023-05-04 22:29:17,286 DEBUG my_website : App object created of flask class.
+2023-05-04 22:29:17,439 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 22:29:23,978 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-04 22:29:24,105 DEBUG my_website : Running app now on port no 5000.
+2023-05-04 22:29:24,261 INFO apscheduler.scheduler : Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-05-04 22:29:24,270 INFO apscheduler.scheduler : Added job "job1" to job store "default"
+2023-05-04 22:29:24,271 INFO apscheduler.scheduler : Scheduler started
+2023-05-04 22:29:24,274 DEBUG apscheduler.scheduler : Looking for jobs to run
+2023-05-04 22:29:24,275 DEBUG apscheduler.scheduler : Next wakeup is due at 2023-05-05 06:05:00+05:30 (in 27335.724082 seconds)
+2023-05-04 22:29:24,303 WARNING werkzeug :  * Debugger is active!
+2023-05-04 22:29:24,327 INFO werkzeug :  * Debugger PIN: 540-118-052
+2023-05-04 22:31:18,715 INFO werkzeug :  * Detected change in 'c:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-04 22:31:19,125 INFO werkzeug :  * Restarting with stat
+2023-05-04 22:31:21,620 DEBUG my_website : App object created of flask class.
+2023-05-04 22:31:21,783 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 22:31:29,340 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-04 22:31:29,483 DEBUG my_website : Running app now on port no 5000.
+2023-05-04 22:31:29,644 INFO apscheduler.scheduler : Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-05-04 22:31:29,653 INFO apscheduler.scheduler : Added job "job1" to job store "default"
+2023-05-04 22:31:29,654 INFO apscheduler.scheduler : Scheduler started
+2023-05-04 22:31:29,657 DEBUG apscheduler.scheduler : Looking for jobs to run
+2023-05-04 22:31:29,658 DEBUG apscheduler.scheduler : Next wakeup is due at 2023-05-05 06:05:00+05:30 (in 27210.341900 seconds)
+2023-05-04 22:31:29,682 WARNING werkzeug :  * Debugger is active!
+2023-05-04 22:31:29,705 INFO werkzeug :  * Debugger PIN: 540-118-052
+2023-05-04 22:31:31,083 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:31:31] "GET / HTTP/1.1" 200 -
+2023-05-04 22:31:31,388 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:31:31] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2023-05-04 22:31:31,459 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:31:31] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+2023-05-04 22:31:31,517 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:31:31] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
+2023-05-04 22:32:19,045 INFO werkzeug :  * Detected change in 'c:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading

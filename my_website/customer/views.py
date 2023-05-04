@@ -8,9 +8,14 @@ def home():
     with app.app_context():
         order_query = db.session.query(Order_details.order_id).filter(Order_details.delivery_status == 'Pending' ).all()
     all_pending_order = []
+    pass_delivery_status = []
     for row in order_query:
         all_pending_order.append(f"https://customer-feedback-dashboard.onrender.com/{row[0]}")
-    testing_data = {"Give review":all_pending_order,
+        pass_delivery_status.append(f"https://customer-feedback-dashboard.onrender.com/{row[0]}/Pass")
+    testing_data = {"NOTE":"These orders were in Pending Delivery state.\n 1.change there state by doing link/order_id/Pass "\
+                    f"You can use any ['Initial' means 'Pending', 'Fail' means 'Cancel', 'Pass' means Delivered] .",
+                    "Change Delivery status to Delivered":pass_delivery_status,
+                    "Give review":all_pending_order,
                     "login_url":"https://customer-feedback-dashboard.onrender.com/login",
                     "Login credentials":"user_email : akarshitgupta29@gmail.com password : akarshitg9"}
     return testing_data
@@ -75,7 +80,7 @@ def delivery_status(id,change_status):
             if entry_query:
                 entry_query.delivery_status = DELIVERY_STATE[change_status]
                 db.session.commit()
-                respose['message'] = "Data Updated Successfully in Order_table with delivery status Pending."
+                respose['message'] = f"Data Updated Successfully in Order_table with delivery status now as {DELIVERY_STATE[change_status]}"
                 return respose,200
             else:
                 respose['message'] = f"No entry found with {id}."

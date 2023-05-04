@@ -25,4 +25,4 @@ if __name__ == "__main__":
         sched.start()
     except Exception as e:
         app.logger.error("Unable to execute cronjob.")
-    app.run(debug=False)
+    app.run(debug=True)

@@ -23,10 +23,10 @@ class Customer_class:
     def fresh_review(id):
         with app.app_context():
             match = Review.query.filter_by(order_id=id).first()
-        if match:
-            return False
-        else:
+        if match==None:
             return True
+        else:
+            return False
     def set_text(self,state):
         if state == 'FRESH':
             self.__SHOW.update({'c_detail':True,'feedback_form':True})
@@ -42,7 +42,9 @@ class Customer_class:
                                         'address':post_office,'delivery_status':order_record.delivery_status})
             try:
                 items = order_record.order_items
+                print("items-> ",items)
                 self.__ORDER_ITEM = json.loads(items)
+                print(self.__ORDER_ITEM)
             except Exception as e:
                 app.logger.error(f"Error {e} occur, while converting String to JSON in services.")
                 #always add data in '[{"item_id":9221,"qty":1,"seller_id":433,"item_type":"Tshirt"},]' this formate
