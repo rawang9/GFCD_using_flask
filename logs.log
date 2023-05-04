@@ -13353,3 +13353,34 @@
 2023-05-04 22:31:31,459 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:31:31] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
 2023-05-04 22:31:31,517 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:31:31] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
 2023-05-04 22:32:19,045 INFO werkzeug :  * Detected change in 'c:\\Users\\Akarshit Gupta\\Desktop\\Project Python\\FYND\\Final\\my_website\\customer\\views.py', reloading
+2023-05-04 22:32:19,524 INFO werkzeug :  * Restarting with stat
+2023-05-04 22:32:22,056 DEBUG my_website : App object created of flask class.
+2023-05-04 22:32:22,223 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 22:32:31,061 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-04 22:32:31,182 DEBUG my_website : Running app now on port no 5000.
+2023-05-04 22:32:31,351 INFO apscheduler.scheduler : Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-05-04 22:32:31,361 INFO apscheduler.scheduler : Added job "job1" to job store "default"
+2023-05-04 22:32:31,362 INFO apscheduler.scheduler : Scheduler started
+2023-05-04 22:32:31,365 DEBUG apscheduler.scheduler : Looking for jobs to run
+2023-05-04 22:32:31,366 DEBUG apscheduler.scheduler : Next wakeup is due at 2023-05-05 06:05:00+05:30 (in 27148.633038 seconds)
+2023-05-04 22:32:31,394 WARNING werkzeug :  * Debugger is active!
+2023-05-04 22:32:31,421 INFO werkzeug :  * Debugger PIN: 540-118-052
+2023-05-04 22:32:33,158 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:32:33] "GET / HTTP/1.1" 200 -
+2023-05-04 22:32:33,405 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:32:33] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2023-05-04 22:32:33,496 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:32:33] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+2023-05-04 22:32:33,548 INFO werkzeug : 127.0.0.1 - - [04/May/2023 22:32:33] "GET /login?next=%2Ffavicon.ico HTTP/1.1" 200 -
+2023-05-04 22:54:34,855 DEBUG my_website : App object created of flask class.
+2023-05-04 22:54:34,920 INFO my_website : Object created of SQLAlchemy class.
+2023-05-04 22:54:41,856 INFO my_website : Either pending trigger alredy present or some error occur
+2023-05-04 22:54:41,974 DEBUG my_website : Running app now on port no 5000.
+2023-05-04 22:54:42,030 INFO apscheduler.scheduler : Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-05-04 22:54:42,035 INFO apscheduler.scheduler : Added job "job1" to job store "default"
+2023-05-04 22:54:42,035 INFO apscheduler.scheduler : Scheduler started
+2023-05-04 22:54:42,037 DEBUG apscheduler.scheduler : Looking for jobs to run
+2023-05-04 22:54:42,038 DEBUG apscheduler.scheduler : Next wakeup is due at 2023-05-05 06:05:00+05:30 (in 25817.961267 seconds)
+2023-05-04 22:54:42,063 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-04 22:54:42,064 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-05-04 22:54:42,068 INFO werkzeug :  * Restarting with stat
+2023-05-04 22:54:42,676 DEBUG my_website : App object created of flask class.
+2023-05-04 22:54:42,723 INFO my_website : Object created of SQLAlchemy class.
